@@ -1,0 +1,2 @@
+# Empty baseline profile
+# This is to avoid baseline profile generation issues 

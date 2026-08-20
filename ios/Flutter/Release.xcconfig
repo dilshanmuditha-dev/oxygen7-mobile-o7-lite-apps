@@ -1,0 +1,46 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include "Generated.xcconfig"
+
+// =============================================================================
+// PIE/ASLR Security Settings
+// Feature: ios-pie-aslr-protection
+// =============================================================================
+
+// Enable Position Independent Executable for ASLR support
+LD_PIE = YES
+GCC_GENERATE_POSITION_INDEPENDENT_CODE = YES
+
+// Enable stack protection against buffer overflow attacks
+GCC_ENABLE_STACK_PROTECTION = YES
+
+// Enable Hardened Runtime for additional security
+ENABLE_HARDENED_RUNTIME = YES
+
+// Additional security compiler flags
+OTHER_CFLAGS = $(inherited) -fstack-protector-strong -D_FORTIFY_SOURCE=2
+OTHER_LDFLAGS = $(inherited) -Wl,-pie
+
+// =============================================================================
+// Security hardening for release builds
+// =============================================================================
+
+// Strip debug symbols for smaller binary and harder reverse engineering
+STRIP_INSTALLED_PRODUCT = YES
+STRIP_STYLE = all
+COPY_PHASE_STRIP = YES
+DEAD_CODE_STRIPPING = YES
+
+// Enable compiler optimizations
+GCC_OPTIMIZATION_LEVEL = s
+SWIFT_OPTIMIZATION_LEVEL = -O
+SWIFT_COMPILATION_MODE = wholemodule
+
+// Disable debug information in release
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+GCC_GENERATE_DEBUGGING_SYMBOLS = NO
+
+// Enable link-time optimization for better code protection
+LLVM_LTO = YES
+
+// Disable assertions in release
+ENABLE_NS_ASSERTIONS = NO

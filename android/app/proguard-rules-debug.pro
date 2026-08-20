@@ -1,0 +1,8 @@
+-keep class ** { *; }
+-keep class com.oxpay.o7lite.** { *; }
+-keep class com.oxpay.o7lite.utils.** { *; }
+-keep class com.oxpay.o7lite.utils.LogUtil { *; }
+-keep class com.oxpay.o7lite.utils.PrintUtil { *; }
+-keep class com.oxpay.o7lite.utils.sunmi_printer.** { *; }
+-keep class com.oxpay.o7lite.utils.sunmi_printer.BytesUtil { *; }
+-keep class com.oxpay.o7lite.utils.sunmi_printer.SunmiPrintHelper { *; } 

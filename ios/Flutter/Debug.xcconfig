@@ -1,0 +1,21 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+// =============================================================================
+// PIE/ASLR Security Settings (Debug)
+// Feature: ios-pie-aslr-protection
+// =============================================================================
+
+// Enable Position Independent Executable for ASLR support
+// Enabled in debug for consistency with release builds
+LD_PIE = YES
+GCC_GENERATE_POSITION_INDEPENDENT_CODE = YES
+
+// Enable stack protection against buffer overflow attacks
+GCC_ENABLE_STACK_PROTECTION = YES
+
+// Hardened Runtime disabled in debug to allow debugging
+ENABLE_HARDENED_RUNTIME = NO
+
+// PIE linker flag
+OTHER_LDFLAGS = $(inherited) -Wl,-pie

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  App-level override for flutter_inappwebview plugin's provider_paths.xml.
+  Restricts external-path from root "." to specific "inappwebview" subdirectory
+  to limit ContentProvider file access scope (Pen Test Finding 4.3).
+-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="external_files" path="inappwebview"/>
+</paths>

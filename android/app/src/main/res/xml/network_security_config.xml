@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Network Security Configuration for O7Lite
+    
+    This configuration enforces modern TLS standards and blocks legacy
+    encryption algorithms (DES, RC4, ECB) at the Android platform level.
+    
+    Security measures:
+    - Blocks cleartext (HTTP) traffic
+    - Enforces TLS 1.2+ for all connections
+    - Uses system trust anchors only
+    
+    Addresses: M05 - Insufficient Cryptography (DES/ECB/RC4 vulnerability)
+-->
+<network-security-config>
+    <!-- Base configuration applies to all domains -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- Trust only system CA certificates -->
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

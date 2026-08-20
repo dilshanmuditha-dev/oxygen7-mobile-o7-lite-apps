@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Backup rules for flutter_secure_storage.
+  Excludes encrypted shared preferences from Google Drive backups
+  to prevent key-related exceptions when restoring on a different device.
+-->
+<full-backup-content>
+    <!-- Exclude flutter_secure_storage encrypted preferences -->
+    <exclude domain="sharedpref" path="FlutterSecureStorage"/>
+    <exclude domain="sharedpref" path="FlutterSecureKeyStorage"/>
+    
+    <!-- Exclude legacy secure_shared_preferences data -->
+    <exclude domain="sharedpref" path="secure_shared_preferences"/>
+</full-backup-content>
