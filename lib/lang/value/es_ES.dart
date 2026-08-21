@@ -19,7 +19,7 @@ const Map<String, String> es = {
   'confirmRefund': '¿Confirmar reembolso?',
 
   // Main
-  'myOxpay': 'Mi OxPay',
+  'myOxpay': 'Mi Oxygen7',
   'activity': 'Actividad',
   'check': 'Verificar',
   'creditCard': 'Tarjeta de Crédito',
@@ -32,7 +32,7 @@ const Map<String, String> es = {
   'payment': 'Pago',
   'transactionHistory': 'Historial de Transacciones',
   'amount': 'Cantidad',
-  'oxpayTID': 'OxPay TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'Número de Tarjeta',
   'cardHolder': 'Titular de la Tarjeta',
   'expridate': 'Fecha de Vencimiento',
@@ -214,7 +214,7 @@ const Map<String, String> es = {
   'diagnosticTestBtn': 'Probar',
   'diagnosticTestPassed': 'Prueba completada exitosamente',
   'diagnosticRecommendations': 'Recomendaciones:',
-  'diagnosticTerminalTitle': 'Diagnósticos OxPay Lite',
+  'diagnosticTerminalTitle': 'Diagnósticos Oxygen7 Lite',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'Habilitar contraseña de reembolso',
@@ -410,7 +410,7 @@ const Map<String, String> es = {
   'loadingTransactions': 'Cargando transacciones...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'amountGreatThan': 'El monto debe ser mayor a 0',
@@ -433,7 +433,7 @@ const Map<String, String> es = {
   'content2':
       'DEBE CONSENTIR AFIRMATIVAMENTE EL USO DE NUESTRO SITIO, Y AL HACERLO, CONSIENTE ESTA POLÍTICA DE PRIVACIDAD. SI NO ESTÁ DE ACUERDO CON LOS TÉRMINOS DE ESTA POLÍTICA DE PRIVACIDAD EN SU TOTALIDAD, NO PUEDE USAR EL SITIO.',
   'contentOxPay':
-      'Ingrese el OxPay TID que usó para iniciar sesión anteriormente.',
+      'Ingrese el Oxygen7 TID que usó para iniciar sesión anteriormente.',
   'creditCardModeActivated': 'El modo de tarjeta de crédito no está activado',
   'dailySummary': 'Resumen diario',
   'dashboard': 'Panel de control',
@@ -509,8 +509,8 @@ const Map<String, String> es = {
       'Ejecutando diagnósticos antes de compartir...',
   'troubleshootShareError': 'Error al compartir diagnósticos',
   'troubleshootOpeningScanner': 'Abriendo escáner...',
-  'troubleshootDiagnosticReport': 'Informe de diagnóstico OxPay Lite',
-  'terminalHeader': 'Diagnóstico del sistema OxPay Lite',
+  'troubleshootDiagnosticReport': 'Informe de diagnóstico Oxygen7 Lite',
+  'terminalHeader': 'Diagnóstico del sistema Oxygen7 Lite',
   'terminalStarting': 'Iniciando diagnóstico completo del sistema...',
   'terminalDevice': 'Dispositivo: @device',
   'terminalOs': 'OS: @os',

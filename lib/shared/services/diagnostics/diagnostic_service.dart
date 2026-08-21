@@ -287,7 +287,7 @@ App Version: ${deviceInfo.appVersion} (${deviceInfo.buildNumber})
     final text = report.toShareableText();
     await SharePlus.instance.share(ShareParams(
       text: text,
-      subject: 'OxPay Lite Diagnostic Report',
+      subject: 'Oxygen7 Lite Diagnostic Report',
       // Required for iPad - provide a share origin rect
       sharePositionOrigin: const Rect.fromLTWH(0, 0, 100, 100),
     ));

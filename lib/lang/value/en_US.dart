@@ -19,7 +19,7 @@ const Map<String, String> en = {
   'confirmRefund': 'Confirm Refund?',
 
   // Main
-  'myOxpay': 'My OxPay',
+  'myOxpay': 'My Oxygen7',
   'activity': 'Activities',
   'check': 'Check',
   'creditCard': 'Credit Card',
@@ -32,7 +32,7 @@ const Map<String, String> en = {
   'payment': 'Payment',
   'transactionHistory': 'History',
   'amount': 'Amount',
-  'oxpayTID': 'Oxpay TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'Card Number',
   'cardHolder': 'Card Holder',
   'expridate': 'Expiry Date',
@@ -137,7 +137,7 @@ const Map<String, String> en = {
   'unifiedOderError': 'Unified Order Error',
   'communityChestDonation': 'Community Chest Donation',
   'keepMeLoggedIn': 'Keep me logged in',
-  'contentOxPay': 'Enter the OxPay TID You used to login earlier.',
+  'contentOxPay': 'Enter the Oxygen7 TID You used to login earlier.',
   'invalidUserNameOrPassword': 'Invalid username or password',
   'paymentPageFailed': 'Payment Page Failed',
   'pleaseTryAgain': 'Please try again',
@@ -258,7 +258,7 @@ const Map<String, String> en = {
   'diagnosticTestBtn': 'Test',
   'diagnosticTestPassed': 'Test passed successfully',
   'diagnosticRecommendations': 'Recommendations:',
-  'diagnosticTerminalTitle': 'OxPay Lite Diagnostics',
+  'diagnosticTerminalTitle': 'Oxygen7 Lite Diagnostics',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'Enable Refund Password',
@@ -445,7 +445,7 @@ const Map<String, String> en = {
   'loadingTransactions': 'Loading transactions...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Hardcoded String Localization Cleanup - Payment List & Home Screen
   'selectPaymentToRefund': 'Select payment to refund',
@@ -489,9 +489,9 @@ const Map<String, String> en = {
   'troubleshootRunningDiagnostics': 'Running diagnostics before sharing...',
   'troubleshootShareError': 'Error sharing diagnostics',
   'troubleshootOpeningScanner': 'Opening scanner...',
-  'troubleshootDiagnosticReport': 'OxPay Lite Diagnostic Report',
+  'troubleshootDiagnosticReport': 'Oxygen7 Lite Diagnostic Report',
   // Terminal output strings
-  'terminalHeader': 'OxPay Lite System Diagnostics',
+  'terminalHeader': 'Oxygen7 Lite System Diagnostics',
   'terminalStarting': 'Starting full system diagnostic...',
   'terminalDevice': 'Device: @device',
   'terminalOs': 'OS: @os',

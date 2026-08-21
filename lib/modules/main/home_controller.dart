@@ -254,7 +254,7 @@ class HomeController extends GetxController with GetTickerProviderStateMixin {
         // For GW2, refresh donation and route data
         getMerchantName.value =
             await SecureSharedPreferences.instance.getMerchantShorName() ??
-                'OxPay';
+                'Oxygen7';
         terminalID.value = SharedPrefManager.terminalID;
         userID.value =
             await SecureSharedPreferences.instance.getMerchantName() ??
@@ -268,7 +268,7 @@ class HomeController extends GetxController with GetTickerProviderStateMixin {
 
   Future<void> _initializeGw2() async {
     getMerchantName.value =
-        await SecureSharedPreferences.instance.getMerchantShorName() ?? 'OxPay';
+        await SecureSharedPreferences.instance.getMerchantShorName() ?? 'Oxygen7';
     terminalID.value = SharedPrefManager.terminalID;
     userID.value =
         await SecureSharedPreferences.instance.getMerchantName() ?? 'Unknown';

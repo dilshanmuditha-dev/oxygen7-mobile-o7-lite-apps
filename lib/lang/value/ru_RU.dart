@@ -19,7 +19,7 @@ const Map<String, String> ru = {
   'confirmRefund': 'Подтвердить возврат?',
 
   // Main
-  'myOxpay': 'Мой OxPay',
+  'myOxpay': 'Мой Oxygen7',
   'activity': 'Активность',
   'check': 'Проверить',
   'creditCard': 'Кредитная карта',
@@ -32,7 +32,7 @@ const Map<String, String> ru = {
   'payment': 'Платеж',
   'transactionHistory': 'История транзакций',
   'amount': 'Сумма',
-  'oxpayTID': 'OxPay TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'Номер карты',
   'cardHolder': 'Держатель карты',
   'expridate': 'Срок действия',
@@ -212,7 +212,7 @@ const Map<String, String> ru = {
   'diagnosticTestBtn': 'Тест',
   'diagnosticTestPassed': 'Тест пройден успешно',
   'diagnosticRecommendations': 'Рекомендации:',
-  'diagnosticTerminalTitle': 'Диагностика OxPay Lite',
+  'diagnosticTerminalTitle': 'Диагностика Oxygen7 Lite',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'Включить пароль возврата',
@@ -402,7 +402,7 @@ const Map<String, String> ru = {
   'loadingTransactions': 'Загрузка транзакций...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'amountGreatThan': 'Сумма должна быть больше 0',
@@ -424,7 +424,7 @@ const Map<String, String> ru = {
       'Спасибо за посещение сайта oxpayfinancial.com ("Сайт"). Сайт является интернет-собственностью OxPay SG Pte Ltd ("OxPay" или "мы"). Эта Политика конфиденциальности определяет, как мы используем, делимся и защищаем Личную информацию.',
   'content2':
       'ВЫ ДОЛЖНЫ ДАТЬ СОГЛАСИЕ НА ИСПОЛЬЗОВАНИЕ НАШЕГО САЙТА, И ДЕЛАЯ ЭТО, ВЫ СОГЛАШАЕТЕСЬ С ЭТОЙ ПОЛИТИКОЙ КОНФИДЕНЦИАЛЬНОСТИ. ЕСЛИ ВЫ НЕ СОГЛАСНЫ С УСЛОВИЯМИ ЭТОЙ ПОЛИТИКИ КОНФИДЕНЦИАЛЬНОСТИ В ПОЛНОМ ОБЪЕМЕ, ВЫ НЕ МОЖЕТЕ ИСПОЛЬЗОВАТЬ САЙТ.',
-  'contentOxPay': 'Введите OxPay TID, который вы использовали для входа ранее.',
+  'contentOxPay': 'Введите Oxygen7 TID, который вы использовали для входа ранее.',
   'creditCardModeActivated': 'Режим кредитной карты не активирован',
   'dailySummary': 'Ежедневная сводка',
   'dashboard': 'Панель управления',
@@ -497,8 +497,8 @@ const Map<String, String> ru = {
   'troubleshootRunningDiagnostics': 'Запуск диагностики перед отправкой...',
   'troubleshootShareError': 'Ошибка при отправке диагностики',
   'troubleshootOpeningScanner': 'Открытие сканера...',
-  'troubleshootDiagnosticReport': 'Диагностический отчёт OxPay Lite',
-  'terminalHeader': 'Диагностика системы OxPay Lite',
+  'troubleshootDiagnosticReport': 'Диагностический отчёт Oxygen7 Lite',
+  'terminalHeader': 'Диагностика системы Oxygen7 Lite',
   'terminalStarting': 'Запуск полной диагностики системы...',
   'terminalDevice': 'Устройство: @device',
   'terminalOs': 'OS: @os',

@@ -19,7 +19,7 @@ const Map<String, String> vi = {
   'confirmRefund': 'Xác nhận hoàn tiền?',
 
   // Main
-  'myOxpay': 'OxPay Của Tôi',
+  'myOxpay': 'Oxygen7 Của Tôi',
   'activity': 'Hoạt động',
   'check': 'Kiểm tra',
   'creditCard': 'Thẻ Tín Dụng',
@@ -32,7 +32,7 @@ const Map<String, String> vi = {
   'payment': 'Thanh Toán',
   'transactionHistory': 'Lịch Sử Giao Dịch',
   'amount': 'Số Tiền',
-  'oxpayTID': 'Oxpay TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'Số Thẻ',
   'cardHolder': 'Chủ Thẻ',
   'expridate': 'Ngày Hết Hạn',
@@ -139,7 +139,7 @@ const Map<String, String> vi = {
   'unifiedOderError': 'Lỗi Đơn Đặt Hàng Thống Nhất',
   'communityChestDonation': 'Quyên Góp Quỹ Nhân Đạo',
   'keepMeLoggedIn': 'Giữ tôi đăng nhập',
-  'contentOxPay': 'Nhập OxPay TID bạn đã sử dụng để đăng nhập trước đây.',
+  'contentOxPay': 'Nhập Oxygen7 TID bạn đã sử dụng để đăng nhập trước đây.',
   'invalidUserNameOrPassword': 'Tên người dùng hoặc mật khẩu không hợp lệ',
   'paymentPageFailed': 'Trang thanh toán thất bại',
   'pleaseTryAgain': 'Vui lòng thử lại',
@@ -248,7 +248,7 @@ const Map<String, String> vi = {
   'diagnosticTestBtn': 'Kiểm Tra',
   'diagnosticTestPassed': 'Kiểm tra thành công',
   'diagnosticRecommendations': 'Khuyến nghị:',
-  'diagnosticTerminalTitle': 'Chẩn Đoán OxPay Lite',
+  'diagnosticTerminalTitle': 'Chẩn Đoán Oxygen7 Lite',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'Bật Mật khẩu Hoàn tiền',
@@ -440,7 +440,7 @@ const Map<String, String> vi = {
   'loadingTransactions': 'Đang tải giao dịch...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'animationStyle': 'Kiểu hoạt ảnh',
@@ -496,8 +496,8 @@ const Map<String, String> vi = {
   'troubleshootRunningDiagnostics': 'Đang chạy chẩn đoán trước khi chia sẻ...',
   'troubleshootShareError': 'Lỗi chia sẻ chẩn đoán',
   'troubleshootOpeningScanner': 'Đang mở máy quét...',
-  'troubleshootDiagnosticReport': 'Báo cáo chẩn đoán OxPay Lite',
-  'terminalHeader': 'Chẩn đoán hệ thống OxPay Lite',
+  'troubleshootDiagnosticReport': 'Báo cáo chẩn đoán Oxygen7 Lite',
+  'terminalHeader': 'Chẩn đoán hệ thống Oxygen7 Lite',
   'terminalStarting': 'Bắt đầu chẩn đoán toàn bộ hệ thống...',
   'terminalDevice': 'Thiết bị: @device',
   'terminalOs': 'HĐH: @os',

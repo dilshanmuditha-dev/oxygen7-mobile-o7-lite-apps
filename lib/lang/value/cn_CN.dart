@@ -19,7 +19,7 @@ const Map<String, String> cn = {
   'confirmRefund': '确认退款?',
 
   // Main
-  'myOxpay': '我的OxPay',
+  'myOxpay': '我的Oxygen7',
   'activity': '活动',
   'donate': '捐',
   'creditCard': '信用卡',
@@ -32,7 +32,7 @@ const Map<String, String> cn = {
   'payment': '支付',
   'transactionHistory': '交易',
   'amount': '金额',
-  'oxpayTID': 'Oxpay 交易ID',
+  'oxpayTID': 'Oxygen7 交易ID',
   'cardNumber': '卡号',
   'cardHolder': '持卡人',
   'expridate': '过期日期',
@@ -131,7 +131,7 @@ const Map<String, String> cn = {
   'unifiedOderError': '统一订单错误',
   'communityChestDonation': '社区公益捐赠',
   'keepMeLoggedIn': '保持登录状态',
-  'contentOxPay': '输入您之前登录时使用的 OxPay TID.',
+  'contentOxPay': '输入您之前登录时使用的 Oxygen7 TID.',
   'invalidUserNameOrPassword': '用户名或密码无效',
   'paymentPageFailed': '支付页面失败',
   'pleaseTryAgain': '请重试',
@@ -250,7 +250,7 @@ const Map<String, String> cn = {
   'diagnosticTestBtn': '测试',
   'diagnosticTestPassed': '测试成功通过',
   'diagnosticRecommendations': '建议:',
-  'diagnosticTerminalTitle': 'OxPay Lite 诊断',
+  'diagnosticTerminalTitle': 'Oxygen7 Lite 诊断',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': '启用退款密码',
@@ -425,7 +425,7 @@ const Map<String, String> cn = {
   'loadingTransactions': '加载交易记录...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'dashboard': '仪表板',
@@ -470,8 +470,8 @@ const Map<String, String> cn = {
   'troubleshootRunningDiagnostics': '分享前正在运行诊断...',
   'troubleshootShareError': '分享诊断出错',
   'troubleshootOpeningScanner': '正在打开扫描器...',
-  'troubleshootDiagnosticReport': 'OxPay Lite 诊断报告',
-  'terminalHeader': 'OxPay Lite 系统诊断',
+  'troubleshootDiagnosticReport': 'Oxygen7 Lite 诊断报告',
+  'terminalHeader': 'Oxygen7 Lite 系统诊断',
   'terminalStarting': '正在启动完整系统诊断...',
   'terminalDevice': '设备: @device',
   'terminalOs': 'OS: @os',

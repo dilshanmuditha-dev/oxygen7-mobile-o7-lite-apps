@@ -19,7 +19,7 @@ const Map<String, String> hi = {
   'confirmRefund': 'रिफंड की पुष्टि करें?',
 
   // Main
-  'myOxpay': 'माई ऑक्सपे',
+  'myOxpay': 'माई Oxygen7',
   'activity': 'गतिविधि',
   'check': 'जांचें',
   'creditCard': 'क्रेडिट कार्ड',
@@ -32,7 +32,7 @@ const Map<String, String> hi = {
   'payment': 'भुगतान',
   'transactionHistory': 'लेनदेन इतिहास',
   'amount': 'राशि',
-  'oxpayTID': 'ऑक्सपे TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'कार्ड नंबर',
   'cardHolder': 'कार्ड धारक',
   'expridate': 'समाप्ति तिथि',
@@ -212,7 +212,7 @@ const Map<String, String> hi = {
   'diagnosticTestBtn': 'परीक्षण',
   'diagnosticTestPassed': 'परीक्षण सफलतापूर्वक पास हुआ',
   'diagnosticRecommendations': 'सिफारिशें:',
-  'diagnosticTerminalTitle': 'OxPay Lite डायग्नोस्टिक्स',
+  'diagnosticTerminalTitle': 'Oxygen7 Lite डायग्नोस्टिक्स',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'रिफंड पासवर्ड सक्षम करें',
@@ -406,7 +406,7 @@ const Map<String, String> hi = {
   'loadingTransactions': 'लेनदेन लोड हो रहे हैं...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'amountGreatThan': 'राशि 0 से अधिक होनी चाहिए',
@@ -428,7 +428,7 @@ const Map<String, String> hi = {
       'oxpayfinancial.com वेबसाइट ("साइट") पर आने के लिए धन्यवाद। साइट OxPay SG Pte Ltd ("OxPay" या "हम") की एक इंटरनेट संपत्ति है। यह गोपनीयता नीति निर्धारित करती है कि हम व्यक्तिगत जानकारी का उपयोग, साझा और सुरक्षा कैसे करते हैं।',
   'content2':
       'आपको हमारी साइट का उपयोग करने के लिए सहमति देनी होगी, और ऐसा करके आप इस गोपनीयता नीति से सहमत होते हैं। यदि आप इस गोपनीयता नीति की शर्तों से पूर्ण रूप से सहमत नहीं हैं, तो आप साइट का उपयोग नहीं कर सकते।',
-  'contentOxPay': 'पहले लॉगिन करने के लिए उपयोग किया गया OxPay TID दर्ज करें।',
+  'contentOxPay': 'पहले लॉगिन करने के लिए उपयोग किया गया Oxygen7 TID दर्ज करें।',
   'creditCardModeActivated': 'क्रेडिट कार्ड मोड सक्रिय नहीं है',
   'dailySummary': 'दैनिक सारांश',
   'dashboard': 'डैशबोर्ड',
@@ -498,8 +498,8 @@ const Map<String, String> hi = {
       'साझा करने से पहले डायग्नोस्टिक चल रहा है...',
   'troubleshootShareError': 'डायग्नोस्टिक साझा करने में त्रुटि',
   'troubleshootOpeningScanner': 'स्कैनर खोल रहा है...',
-  'troubleshootDiagnosticReport': 'OxPay Lite डायग्नोस्टिक रिपोर्ट',
-  'terminalHeader': 'OxPay Lite सिस्टम डायग्नोस्टिक',
+  'troubleshootDiagnosticReport': 'Oxygen7 Lite डायग्नोस्टिक रिपोर्ट',
+  'terminalHeader': 'Oxygen7 Lite सिस्टम डायग्नोस्टिक',
   'terminalStarting': 'पूर्ण सिस्टम डायग्नोस्टिक शुरू हो रहा है...',
   'terminalDevice': 'डिवाइस: @device',
   'terminalOs': 'OS: @os',

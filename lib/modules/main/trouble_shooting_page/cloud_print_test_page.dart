@@ -203,7 +203,7 @@ class _CloudPrintTestPageState extends State<CloudPrintTestPage> {
                   ),
                   const SizedBox(height: 4),
                   const Text(
-                    'OxPay Lite',
+                    'Oxygen7 Lite',
                     style: TextStyle(
                       fontFamily: 'Courier',
                       fontSize: 14,
@@ -213,7 +213,7 @@ class _CloudPrintTestPageState extends State<CloudPrintTestPage> {
                   ),
                   const Divider(color: Color(0xFF9CA3AF)),
                   _receiptRow('cloudPrintDate'.tr, now),
-                  _receiptRow('cloudPrintMerchant'.tr, 'OxPay Lite Test'),
+                  _receiptRow('cloudPrintMerchant'.tr, 'Oxygen7 Lite Test'),
                   _receiptRow('cloudPrintTerminal'.tr, 'CLOUD-001'),
                   const Divider(color: Color(0xFF9CA3AF)),
                   _receiptRow('cloudPrintItem'.tr, 'Test Print'),
@@ -361,7 +361,7 @@ class _CloudPrintTestPageState extends State<CloudPrintTestPage> {
       ),
     );
     bytes += generator.text(
-      'OxPay Lite',
+      'Oxygen7 Lite',
       styles: const PosStyles(
         align: PosAlign.center,
         bold: true,
@@ -384,7 +384,7 @@ class _CloudPrintTestPageState extends State<CloudPrintTestPage> {
           width: 4,
           styles: const PosStyles(align: PosAlign.left)),
       PosColumn(
-          text: 'OxPay Lite Test',
+          text: 'Oxygen7 Lite Test',
           width: 8,
           styles: const PosStyles(align: PosAlign.right)),
     ]);

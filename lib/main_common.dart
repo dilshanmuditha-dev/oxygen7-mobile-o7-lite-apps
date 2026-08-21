@@ -175,9 +175,9 @@ class _RootedWarningScreen extends StatelessWidget {
       'For your security, this application cannot run on compromised devices. '
       'All locally stored data has been wiped.';
   static const String _fallbackExitLabel = 'Exit';
-  static const String _appName = 'OxPay Lite';
+  static const String _appName = 'Oxygen7 Lite';
   static const String _appVersion = 'Version 3.0';
-  static const String _poweredBy = 'Powered by OxPay';
+  static const String _poweredBy = 'Powered by Oxygen7';
 
   @override
   Widget build(BuildContext context) {

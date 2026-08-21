@@ -20,7 +20,7 @@ const Map<String, String> ms = {
   'confirmRefund': 'Sahkan Pembayaran Balik?',
 
   // Main
-  'myOxpay': 'OxPay saya',
+  'myOxpay': 'Oxygen7 saya',
   'check': 'semak',
   'activity': 'Aktiviti',
   'donate': 'Menderma',
@@ -33,7 +33,7 @@ const Map<String, String> ms = {
   'payment': 'Bayaran',
   'transactionHistory': 'Transaksi',
   'amount': 'Jumlah',
-  'oxpayTID': 'ID Oxpay',
+  'oxpayTID': 'ID Oxygen7',
   'cardNumber': 'Nombor Kad',
   'cardHolder': 'Pemegang Kad',
   'expridate': 'Tarikh Tamat Tempoh',
@@ -140,7 +140,7 @@ const Map<String, String> ms = {
   'communityChestDonation': 'Sumbangan Peti Komuniti',
   'keepMeLoggedIn': 'Biarkan saya log masuk',
   'contentOxPay':
-      'Masukkan OxPay TID yang anda gunakan untuk log masuk sebelum ini.',
+      'Masukkan Oxygen7 TID yang anda gunakan untuk log masuk sebelum ini.',
   'invalidUserNameOrPassword': 'Nama pengguna atau kata laluan tidak sah',
   'paymentPageFailed': 'Halaman Pembayaran Gagal',
   'pleaseTryAgain': 'Sila cuba lagi',
@@ -262,7 +262,7 @@ const Map<String, String> ms = {
   'diagnosticTestBtn': 'Ujian',
   'diagnosticTestPassed': 'Ujian berjaya',
   'diagnosticRecommendations': 'Cadangan:',
-  'diagnosticTerminalTitle': 'Diagnostik OxPay Lite',
+  'diagnosticTerminalTitle': 'Diagnostik Oxygen7 Lite',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'Aktifkan Kata Laluan Bayaran Balik',
@@ -456,7 +456,7 @@ const Map<String, String> ms = {
   'loadingTransactions': 'Memuatkan transaksi...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'dashboard': 'Papan Pemuka',
@@ -505,8 +505,8 @@ const Map<String, String> ms = {
       'Menjalankan diagnostik sebelum berkongsi...',
   'troubleshootShareError': 'Ralat berkongsi diagnostik',
   'troubleshootOpeningScanner': 'Membuka pengimbas...',
-  'troubleshootDiagnosticReport': 'Laporan Diagnostik OxPay Lite',
-  'terminalHeader': 'Diagnostik Sistem OxPay Lite',
+  'troubleshootDiagnosticReport': 'Laporan Diagnostik Oxygen7 Lite',
+  'terminalHeader': 'Diagnostik Sistem Oxygen7 Lite',
   'terminalStarting': 'Memulakan diagnostik sistem penuh...',
   'terminalDevice': 'Peranti: @device',
   'terminalOs': 'OS: @os',

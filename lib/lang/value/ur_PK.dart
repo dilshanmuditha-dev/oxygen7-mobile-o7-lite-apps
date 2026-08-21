@@ -19,7 +19,7 @@ const Map<String, String> ur = {
   'confirmRefund': 'ریفنڈ کی تصدیق کریں؟',
 
   // Main
-  'myOxpay': 'میرا آکس پے',
+  'myOxpay': 'میرا Oxygen7',
   'activity': 'سرگرمی',
   'check': 'چیک کریں',
   'creditCard': 'کریڈٹ کارڈ',
@@ -32,7 +32,7 @@ const Map<String, String> ur = {
   'payment': 'ادائیگی',
   'transactionHistory': 'لین دین کی تاریخ',
   'amount': 'رقم',
-  'oxpayTID': 'آکس پے TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'کارڈ نمبر',
   'cardHolder': 'کارڈ ہولڈر',
   'expridate': 'اختتام کی تاریخ',
@@ -212,7 +212,7 @@ const Map<String, String> ur = {
   'diagnosticTestBtn': 'ٹیسٹ',
   'diagnosticTestPassed': 'ٹیسٹ کامیابی سے پاس',
   'diagnosticRecommendations': 'سفارشات:',
-  'diagnosticTerminalTitle': 'OxPay Lite تشخیص',
+  'diagnosticTerminalTitle': 'Oxygen7 Lite تشخیص',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'ریفنڈ پاس ورڈ فعال کریں',
@@ -403,7 +403,7 @@ const Map<String, String> ur = {
   'loadingTransactions': 'لین دین لوڈ ہو رہے ہیں...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'amountGreatThan': 'رقم 0 سے زیادہ ہونی چاہیے',
@@ -425,7 +425,7 @@ const Map<String, String> ur = {
       'oxpayfinancial.com ویب سائٹ ("سائٹ") پر آنے کا شکریہ۔ سائٹ OxPay SG Pte Ltd ("OxPay" یا "ہم") کی انٹرنیٹ پراپرٹی ہے۔ یہ رازداری کی پالیسی بیان کرتی ہے کہ ہم ذاتی معلومات کو کیسے استعمال، شیئر اور محفوظ کرتے ہیں۔',
   'content2':
       'آپ کو ہماری سائٹ استعمال کرنے کے لیے رضامندی دینی ہوگی، اور ایسا کرکے آپ اس رازداری کی پالیسی سے متفق ہیں۔ اگر آپ اس رازداری کی پالیسی کی شرائط سے مکمل طور پر متفق نہیں ہیں، تو آپ سائٹ استعمال نہیں کر سکتے۔',
-  'contentOxPay': 'پہلے لاگ ان کرنے کے لیے استعمال کیا گیا OxPay TID درج کریں۔',
+  'contentOxPay': 'پہلے لاگ ان کرنے کے لیے استعمال کیا گیا Oxygen7 TID درج کریں۔',
   'creditCardModeActivated': 'کریڈٹ کارڈ موڈ فعال نہیں ہے',
   'dailySummary': 'روزانہ خلاصہ',
   'dashboard': 'ڈیش بورڈ',
@@ -494,8 +494,8 @@ const Map<String, String> ur = {
   'troubleshootRunningDiagnostics': 'شیئر کرنے سے پہلے تشخیص چل رہی ہے...',
   'troubleshootShareError': 'تشخیص شیئر کرنے میں خرابی',
   'troubleshootOpeningScanner': 'اسکینر کھل رہا ہے...',
-  'troubleshootDiagnosticReport': 'OxPay Lite تشخیصی رپورٹ',
-  'terminalHeader': 'OxPay Lite سسٹم تشخیص',
+  'troubleshootDiagnosticReport': 'Oxygen7 Lite تشخیصی رپورٹ',
+  'terminalHeader': 'Oxygen7 Lite سسٹم تشخیص',
   'terminalStarting': 'مکمل سسٹم تشخیص شروع ہو رہی ہے...',
   'terminalDevice': 'ڈیوائس: @device',
   'terminalOs': 'OS: @os',

@@ -297,7 +297,7 @@ class DiagnosticReport {
   /// Generate formatted string for display
   String toFormattedString() {
     final buffer = StringBuffer();
-    buffer.writeln('=== OxPay Lite Diagnostic Report ===');
+    buffer.writeln('=== Oxygen7 Lite Diagnostic Report ===');
     buffer.writeln('Generated: ${timestamp.toIso8601String()}');
     buffer.writeln('');
     buffer.writeln('--- Device Information ---');

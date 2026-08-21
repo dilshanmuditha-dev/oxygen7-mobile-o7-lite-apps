@@ -19,7 +19,7 @@ const Map<String, String> bn = {
   'confirmRefund': 'রিফান্ড নিশ্চিত করুন?',
 
   // Main
-  'myOxpay': 'আমার অক্সপে',
+  'myOxpay': 'আমার Oxygen7',
   'activity': 'কার্যকলাপ',
   'check': 'চেক',
   'creditCard': 'ক্রেডিট কার্ড',
@@ -32,7 +32,7 @@ const Map<String, String> bn = {
   'payment': 'পেমেন্ট',
   'transactionHistory': 'লেনদেনের ইতিহাস',
   'amount': 'পরিমাণ',
-  'oxpayTID': 'অক্সপে TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'কার্ড নম্বর',
   'cardHolder': 'কার্ড ধারক',
   'expridate': 'মেয়াদ শেষের তারিখ',
@@ -210,7 +210,7 @@ const Map<String, String> bn = {
   'diagnosticTestBtn': 'পরীক্ষা',
   'diagnosticTestPassed': 'পরীক্ষা সফলভাবে পাস হয়েছে',
   'diagnosticRecommendations': 'সুপারিশ:',
-  'diagnosticTerminalTitle': 'OxPay Lite ডায়াগনস্টিকস',
+  'diagnosticTerminalTitle': 'Oxygen7 Lite ডায়াগনস্টিকস',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'রিফান্ড পাসওয়ার্ড সক্রিয় করুন',
@@ -391,7 +391,7 @@ const Map<String, String> bn = {
   'loadingTransactions': 'লেনদেন লোড হচ্ছে...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'amountGreatThan': 'পরিমাণ ০ এর বেশি হতে হবে',
@@ -413,7 +413,7 @@ const Map<String, String> bn = {
       'oxpayfinancial.com ওয়েবসাইট ("সাইট") পরিদর্শনের জন্য ধন্যবাদ। সাইটটি OxPay SG Pte Ltd ("OxPay" বা "আমরা") এর একটি ইন্টারনেট সম্পত্তি। এই গোপনীয়তা নীতি নির্ধারণ করে কিভাবে আমরা ব্যক্তিগত তথ্য ব্যবহার, শেয়ার এবং সুরক্ষিত করি।',
   'content2':
       'আমাদের সাইট ব্যবহার করতে আপনাকে অবশ্যই সম্মতি দিতে হবে, এবং এটি করার মাধ্যমে আপনি এই গোপনীয়তা নীতিতে সম্মত হন। আপনি যদি এই গোপনীয়তা নীতির শর্তাবলীতে সম্পূর্ণরূপে সম্মত না হন, তাহলে আপনি সাইটটি ব্যবহার করতে পারবেন না।',
-  'contentOxPay': 'আগে লগইন করতে ব্যবহৃত OxPay TID প্রবেশ করান।',
+  'contentOxPay': 'আগে লগইন করতে ব্যবহৃত Oxygen7 TID প্রবেশ করান।',
   'creditCardModeActivated': 'ক্রেডিট কার্ড মোড সক্রিয় নয়',
   'dailySummary': 'দৈনিক সারাংশ',
   'dashboard': 'ড্যাশবোর্ড',
@@ -484,8 +484,8 @@ const Map<String, String> bn = {
       'শেয়ার করার আগে ডায়াগনস্টিক চালানো হচ্ছে...',
   'troubleshootShareError': 'ডায়াগনস্টিক শেয়ার করতে ত্রুটি',
   'troubleshootOpeningScanner': 'স্ক্যানার খোলা হচ্ছে...',
-  'troubleshootDiagnosticReport': 'OxPay Lite ডায়াগনস্টিক রিপোর্ট',
-  'terminalHeader': 'OxPay Lite সিস্টেম ডায়াগনস্টিক',
+  'troubleshootDiagnosticReport': 'Oxygen7 Lite ডায়াগনস্টিক রিপোর্ট',
+  'terminalHeader': 'Oxygen7 Lite সিস্টেম ডায়াগনস্টিক',
   'terminalStarting': 'সম্পূর্ণ সিস্টেম ডায়াগনস্টিক শুরু হচ্ছে...',
   'terminalDevice': 'ডিভাইস: @device',
   'terminalOs': 'OS: @os',

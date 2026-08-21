@@ -1615,7 +1615,7 @@ class TransactionHistoryDetailController extends GetxController
       var paymentMethod = getPaymentType();
       var merchantName =
           await SecureSharedPreferences.instance.getMerchantShorName() ??
-              'OxPay';
+              'Oxygen7';
 
       var sendEmailRequest = SendEmailRequest(
         invoiceFilePath: file.path,

@@ -20,7 +20,7 @@ const Map<String, String> fr = {
   'confirmRefund': 'Confirmer le remboursement?',
 
   // Main
-  'myOxpay': 'Mon OxPay',
+  'myOxpay': 'Mon Oxygen7',
   'activity': 'Activité',
   'check': 'Vérifier',
   'creditCard': 'Carte de Crédit',
@@ -33,7 +33,7 @@ const Map<String, String> fr = {
   'payment': 'Paiement',
   'transactionHistory': 'Historique des Transactions',
   'amount': 'Montant',
-  'oxpayTID': 'OxPay TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'Numéro de Carte',
   'cardHolder': 'Titulaire de la Carte',
   'expridate': 'Date d\'Expiration',
@@ -217,7 +217,7 @@ const Map<String, String> fr = {
   'diagnosticTestBtn': 'Tester',
   'diagnosticTestPassed': 'Test réussi avec succès',
   'diagnosticRecommendations': 'Recommandations:',
-  'diagnosticTerminalTitle': 'Diagnostics OxPay Lite',
+  'diagnosticTerminalTitle': 'Diagnostics Oxygen7 Lite',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'Activer le mot de passe de remboursement',
@@ -412,7 +412,7 @@ const Map<String, String> fr = {
   'loadingTransactions': 'Chargement des transactions...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'amountGreatThan': 'Le montant doit être supérieur à 0',
@@ -435,7 +435,7 @@ const Map<String, String> fr = {
   'content2':
       'VOUS DEVEZ CONSENTIR AFFIRMATIVEMENT À L\'UTILISATION DE NOTRE SITE, ET CE FAISANT, VOUS CONSENTEZ À CETTE POLITIQUE DE CONFIDENTIALITÉ. SI VOUS N\'ÊTES PAS D\'ACCORD AVEC LES TERMES DE CETTE POLITIQUE DE CONFIDENTIALITÉ DANS LEUR INTÉGRALITÉ, VOUS NE POUVEZ PAS UTILISER LE SITE.',
   'contentOxPay':
-      'Entrez l\'OxPay TID que vous avez utilisé pour vous connecter précédemment.',
+      'Entrez l\'Oxygen7 TID que vous avez utilisé pour vous connecter précédemment.',
   'creditCardModeActivated': 'Le mode carte de crédit n\'est pas activé',
   'dailySummary': 'Résumé quotidien',
   'dashboard': 'Tableau de bord',
@@ -509,8 +509,8 @@ const Map<String, String> fr = {
       'Exécution des diagnostics avant le partage...',
   'troubleshootShareError': 'Erreur lors du partage des diagnostics',
   'troubleshootOpeningScanner': 'Ouverture du scanner...',
-  'troubleshootDiagnosticReport': 'Rapport de diagnostic OxPay Lite',
-  'terminalHeader': 'Diagnostics système OxPay Lite',
+  'troubleshootDiagnosticReport': 'Rapport de diagnostic Oxygen7 Lite',
+  'terminalHeader': 'Diagnostics système Oxygen7 Lite',
   'terminalStarting': 'Démarrage du diagnostic système complet...',
   'terminalDevice': 'Appareil : @device',
   'terminalOs': 'OS : @os',

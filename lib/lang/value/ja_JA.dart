@@ -19,7 +19,7 @@ const Map<String, String> ja = {
   'confirmRefund': '返金を確認する?',
 
   // Main
-  'myOxpay': '私のOxPay',
+  'myOxpay': '私のOxygen7',
   'activity': 'アクティビティ',
   'check': '確認',
   'creditCard': 'クレジットカード',
@@ -32,7 +32,7 @@ const Map<String, String> ja = {
   'payment': '支払い',
   'transactionHistory': '取引履歴',
   'amount': '金額',
-  'oxpayTID': 'Oxpay TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'カード番号',
   'cardHolder': 'カードホルダー',
   'expridate': '有効期限',
@@ -135,7 +135,7 @@ const Map<String, String> ja = {
   'unifiedOderError': '統一注文エラー',
   'communityChestDonation': 'コミュニティチェスト寄付',
   'keepMeLoggedIn': 'ログインしたままにする',
-  'contentOxPay': '以前にログインに使用したOxPay TIDを入力してください。',
+  'contentOxPay': '以前にログインに使用したOxygen7 TIDを入力してください。',
   'invalidUserNameOrPassword': '無効なユーザー名またはパスワード',
   'paymentPageFailed': '支払いページに失敗しました',
   'pleaseTryAgain': 'もう一度やり直してください',
@@ -242,7 +242,7 @@ const Map<String, String> ja = {
   'diagnosticTestBtn': 'テスト',
   'diagnosticTestPassed': 'テストに成功しました',
   'diagnosticRecommendations': '推奨事項:',
-  'diagnosticTerminalTitle': 'OxPay Lite 診断',
+  'diagnosticTerminalTitle': 'Oxygen7 Lite 診断',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': '返金パスワードを有効にする',
@@ -419,7 +419,7 @@ const Map<String, String> ja = {
   'loadingTransactions': '取引履歴読み込み中...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'animationStyle': 'アニメーションスタイル',
@@ -474,8 +474,8 @@ const Map<String, String> ja = {
   'troubleshootRunningDiagnostics': '共有前に診断を実行中...',
   'troubleshootShareError': '診断の共有エラー',
   'troubleshootOpeningScanner': 'スキャナーを開いています...',
-  'troubleshootDiagnosticReport': 'OxPay Lite 診断レポート',
-  'terminalHeader': 'OxPay Lite システム診断',
+  'troubleshootDiagnosticReport': 'Oxygen7 Lite 診断レポート',
+  'terminalHeader': 'Oxygen7 Lite システム診断',
   'terminalStarting': '完全なシステム診断を開始中...',
   'terminalDevice': 'デバイス: @device',
   'terminalOs': 'OS: @os',

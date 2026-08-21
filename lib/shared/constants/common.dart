@@ -199,7 +199,7 @@ class CommonConstants {
   static const String cardNumberLimit = 'cardNumberLimit';
 
   static const textEmpty = '';
-  static const textOxPay = 'OxPay';
+  static const textOxPay = 'Oxygen7';
   static const labelDailySummarySelectAlipay = "Alipay";
   static const labelDailySummarySelectWechat = "WeChatPay";
   static const labelDailySummarySelectNetspay = "NetsPay";

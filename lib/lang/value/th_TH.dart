@@ -19,7 +19,7 @@ const Map<String, String> th = {
   'confirmRefund': 'ยืนยันการคืนเงิน?',
 
   // Main
-  'myOxpay': 'อ็อกซ์เพย์ของฉัน',
+  'myOxpay': 'Oxygen7ของฉัน',
   'check': 'ตรวจสอบ',
   'activity': 'กิจกรรม',
   'creditCard': 'บัตรเครดิต',
@@ -32,7 +32,7 @@ const Map<String, String> th = {
   'digitalPayment': 'การชำระเงินแบบดิจิทัล',
   'transactionHistory': 'การทำธุรกรรม',
   'amount': 'จำนวน',
-  'oxpayTID': 'รหัสธุรกรรม Oxpay',
+  'oxpayTID': 'รหัสธุรกรรม Oxygen7',
   'cardNumber': 'หมายเลขบัตร',
   'cardHolder': 'เจ้าของบัตร',
   'expridate': 'วันที่หมดอายุ',
@@ -139,7 +139,7 @@ const Map<String, String> th = {
   'unifiedOderError': 'ข้อผิดพลาดในการสั่งรวม',
   'communityChestDonation': 'การบริจาคให้กับทุกคนในชุมชน',
   'keepMeLoggedIn': 'ให้ฉันยังคงอยู่ในระบบ',
-  'contentOxPay': 'ป้อน OxPay TID ที่คุณใช้ในการเข้าสู่ระบบก่อนหน้านี้',
+  'contentOxPay': 'ป้อน Oxygen7 TID ที่คุณใช้ในการเข้าสู่ระบบก่อนหน้านี้',
   'invalidUserNameOrPassword': 'ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง',
   'paymentPageFailed': 'การชำระเงินล้มเหลว',
   'pleaseTryAgain': 'โปรดลองอีกครั้ง',
@@ -249,7 +249,7 @@ const Map<String, String> th = {
   'diagnosticTestBtn': 'ทดสอบ',
   'diagnosticTestPassed': 'ทดสอบผ่านสำเร็จ',
   'diagnosticRecommendations': 'คำแนะนำ:',
-  'diagnosticTerminalTitle': 'การวินิจฉัย OxPay Lite',
+  'diagnosticTerminalTitle': 'การวินิจฉัย Oxygen7 Lite',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'เปิดใช้รหัสผ่านคืนเงิน',
@@ -440,7 +440,7 @@ const Map<String, String> th = {
   'loadingTransactions': 'กำลังโหลดรายการธุรกรรม...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'animationStyle': 'รูปแบบแอนิเมชัน',
@@ -496,8 +496,8 @@ const Map<String, String> th = {
   'troubleshootRunningDiagnostics': 'กำลังวินิจฉัยก่อนแชร์...',
   'troubleshootShareError': 'เกิดข้อผิดพลาดในการแชร์การวินิจฉัย',
   'troubleshootOpeningScanner': 'กำลังเปิดสแกนเนอร์...',
-  'troubleshootDiagnosticReport': 'รายงานการวินิจฉัย OxPay Lite',
-  'terminalHeader': 'การวินิจฉัยระบบ OxPay Lite',
+  'troubleshootDiagnosticReport': 'รายงานการวินิจฉัย Oxygen7 Lite',
+  'terminalHeader': 'การวินิจฉัยระบบ Oxygen7 Lite',
   'terminalStarting': 'กำลังเริ่มการวินิจฉัยระบบทั้งหมด...',
   'terminalDevice': 'อุปกรณ์: @device',
   'terminalOs': 'OS: @os',

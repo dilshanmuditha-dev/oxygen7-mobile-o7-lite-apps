@@ -19,7 +19,7 @@ const Map<String, String> ko = {
   'confirmRefund': '환불 확인?',
 
   // Main
-  'myOxpay': '내 OxPay',
+  'myOxpay': '내 Oxygen7',
   'activity': '활동',
   'donate': '기부',
   'creditCard': '신용 카드',
@@ -32,7 +32,7 @@ const Map<String, String> ko = {
   'payment': '결제',
   'transactionHistory': '업무',
   'amount': '금액',
-  'oxpayTID': 'Oxpay 거래 ID',
+  'oxpayTID': 'Oxygen7 거래 ID',
   'cardNumber': '카드 번호',
   'cardHolder': '카드 소지자',
   'expridate': '만료 날짜',
@@ -133,7 +133,7 @@ const Map<String, String> ko = {
   'unifiedOderError': '통합 주문 오류',
   'communityChestDonation': '지역 사회 기부',
   'keepMeLoggedIn': '로그인 유지',
-  'contentOxPay': '이전에 로그인할 때 사용한 OxPay TID를 입력하세요.',
+  'contentOxPay': '이전에 로그인할 때 사용한 Oxygen7 TID를 입력하세요.',
   'invalidUserNameOrPassword': '잘못된 사용자 이름 또는 비밀번호',
   'paymentPageFailed': '결제 페이지 실패',
   'pleaseTryAgain': '다시 시도하십시오',
@@ -241,7 +241,7 @@ const Map<String, String> ko = {
   'diagnosticTestBtn': '테스트',
   'diagnosticTestPassed': '테스트 성공',
   'diagnosticRecommendations': '권장 사항:',
-  'diagnosticTerminalTitle': 'OxPay Lite 진단',
+  'diagnosticTerminalTitle': 'Oxygen7 Lite 진단',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': '환불 비밀번호 활성화',
@@ -418,7 +418,7 @@ const Map<String, String> ko = {
   'loadingTransactions': '거래 내역 로딩 중...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'animationStyle': '애니메이션 스타일',
@@ -473,8 +473,8 @@ const Map<String, String> ko = {
   'troubleshootRunningDiagnostics': '공유 전 진단 실행 중...',
   'troubleshootShareError': '진단 공유 오류',
   'troubleshootOpeningScanner': '스캐너 열는 중...',
-  'troubleshootDiagnosticReport': 'OxPay Lite 진단 보고서',
-  'terminalHeader': 'OxPay Lite 시스템 진단',
+  'troubleshootDiagnosticReport': 'Oxygen7 Lite 진단 보고서',
+  'terminalHeader': 'Oxygen7 Lite 시스템 진단',
   'terminalStarting': '전체 시스템 진단 시작 중...',
   'terminalDevice': '기기: @device',
   'terminalOs': 'OS: @os',

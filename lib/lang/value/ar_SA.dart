@@ -19,7 +19,7 @@ const Map<String, String> ar = {
   'confirmRefund': 'تأكيد الاسترداد؟',
 
   // Main
-  'myOxpay': 'أوكس باي الخاص بي',
+  'myOxpay': 'Oxygen7 الخاص بي',
   'activity': 'النشاط',
   'check': 'فحص',
   'creditCard': 'بطاقة ائتمان',
@@ -32,7 +32,7 @@ const Map<String, String> ar = {
   'payment': 'الدفع',
   'transactionHistory': 'تاريخ المعاملات',
   'amount': 'المبلغ',
-  'oxpayTID': 'أوكس باي TID',
+  'oxpayTID': 'Oxygen7 TID',
   'cardNumber': 'رقم البطاقة',
   'cardHolder': 'حامل البطاقة',
   'expridate': 'تاريخ الانتهاء',
@@ -210,7 +210,7 @@ const Map<String, String> ar = {
   'diagnosticTestBtn': 'اختبار',
   'diagnosticTestPassed': 'نجح الاختبار بنجاح',
   'diagnosticRecommendations': 'التوصيات:',
-  'diagnosticTerminalTitle': 'تشخيصات OxPay Lite',
+  'diagnosticTerminalTitle': 'تشخيصات Oxygen7 Lite',
 
   // Hardcoded String Localization Cleanup - App Settings
   'settingsEnableRefundPassword': 'تفعيل كلمة مرور الاسترداد',
@@ -395,7 +395,7 @@ const Map<String, String> ar = {
   'loadingTransactions': 'جارٍ تحميل المعاملات...',
 
   // Hardcoded String Localization Cleanup - App Root
-  'appTitle': 'OxPay Lite',
+  'appTitle': 'Oxygen7 Lite',
 
   // Missing keys - Additional translations
   'amountGreatThan': 'يجب أن يكون المبلغ أكثر من 0',
@@ -417,7 +417,7 @@ const Map<String, String> ar = {
       'شكراً لزيارتك موقع oxpayfinancial.com ("الموقع"). الموقع هو ملكية إنترنت لشركة OxPay SG Pte Ltd ("OxPay" أو "نحن"). تحدد سياسة الخصوصية هذه كيفية استخدامنا ومشاركتنا وحماية المعلومات الشخصية.',
   'content2':
       'يجب عليك الموافقة بشكل إيجابي على استخدام موقعنا، وبذلك فإنك توافق على سياسة الخصوصية هذه. إذا كنت لا توافق على شروط سياسة الخصوصية هذه بالكامل، فلا يجوز لك استخدام الموقع.',
-  'contentOxPay': 'أدخل OxPay TID الذي استخدمته لتسجيل الدخول سابقاً.',
+  'contentOxPay': 'أدخل Oxygen7 TID الذي استخدمته لتسجيل الدخول سابقاً.',
   'creditCardModeActivated': 'وضع بطاقة الائتمان غير مفعل',
   'dailySummary': 'الملخص اليومي',
   'dashboard': 'لوحة التحكم',
@@ -486,8 +486,8 @@ const Map<String, String> ar = {
   'troubleshootRunningDiagnostics': 'جارٍ تشغيل التشخيص قبل المشاركة...',
   'troubleshootShareError': 'خطأ في مشاركة التشخيص',
   'troubleshootOpeningScanner': 'جارٍ فتح الماسح...',
-  'troubleshootDiagnosticReport': 'تقرير تشخيص OxPay Lite',
-  'terminalHeader': 'تشخيص نظام OxPay Lite',
+  'troubleshootDiagnosticReport': 'تقرير تشخيص Oxygen7 Lite',
+  'terminalHeader': 'تشخيص نظام Oxygen7 Lite',
   'terminalStarting': 'جارٍ بدء التشخيص الكامل للنظام...',
   'terminalDevice': 'الجهاز: @device',
   'terminalOs': 'OS: @os',
