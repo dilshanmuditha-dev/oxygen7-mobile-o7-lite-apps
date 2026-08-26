@@ -296,6 +296,7 @@ const Map<String, String> th = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
+  'paymentMethodRipple': 'Ripple',
   'exitAppTitle': 'ออกจากแอป',
   'exitAppMessage': 'คุณแน่ใจหรือไม่ว่าต้องการออกจากแอป?',
   'initializingStatus': 'กำลังเริ่มต้น...',

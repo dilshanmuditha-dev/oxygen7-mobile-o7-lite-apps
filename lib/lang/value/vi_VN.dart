@@ -294,6 +294,7 @@ const Map<String, String> vi = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
+  'paymentMethodRipple': 'Ripple',
   'exitAppTitle': 'Thoát Ứng dụng',
   'exitAppMessage': 'Bạn có chắc chắn muốn thoát ứng dụng không?',
   'initializingStatus': 'Đang khởi tạo...',

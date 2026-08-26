@@ -254,6 +254,7 @@ const Map<String, String> bn = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
+  'paymentMethodRipple': 'Ripple',
   'exitAppTitle': 'অ্যাপ থেকে বের হন',
   'exitAppMessage': 'আপনি কি সত্যিই অ্যাপ থেকে বের হতে চান?',
   'initializingStatus': 'ইনিশিয়ালাইজ হচ্ছে...',

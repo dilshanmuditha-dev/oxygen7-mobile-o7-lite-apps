@@ -69,6 +69,7 @@ class ConstantsO7Lite {
   static const String IOUPAY_HOST = "ioupayHost";
   static const String ALETAQRC_HOST = "aletaQrcHost";
   static const String FAKE_GIFT_HOST = "fakeGiftHost";
+  static const String RIPPLE_HOST = "rippleHost";
 
   // Payment Type
   static const String ALIPAY_TYPE = "77772";
@@ -87,6 +88,7 @@ class ConstantsO7Lite {
   static const String SHOPEE_TYPE = "77787";
   static const String IOUPAY_TYPE = "77789";
   static const String GRABPAY_V3_TYPE = "77791";
+  static const String RIPPLE_TYPE = "77799";
   static const String UNIQGIFT_TYPE = "77775";
   static const String BLUE_PAYMENT_TYPE = "BLUE_PAYMENT_TYPE";
 
@@ -107,6 +109,7 @@ class ConstantsO7Lite {
   static const String BRAND_PAYNOW = "SCB_PayNow";
   static const String BRAND_PAYNOW2 = "OCBC_PayNow";
   static const String BRAND_QUICKPASS = "Quickpass";
+  static const String BRAND_RIPPLE = "Ripple";
   static const String BRAND_RUPAY = "RuPay";
   static const String BRAND_THAIQR = "ThaiQR";
   static const String BRAND_VISA = "Visa";

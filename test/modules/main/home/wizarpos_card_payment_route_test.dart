@@ -94,7 +94,7 @@ void main() {
       );
     });
 
-    test('HomeController exposes and refreshes reactive capability state', () {
+    test('HomeController force-disables card payment in the demo build', () {
       final source =
           File('lib/modules/main/home_controller.dart').readAsStringSync();
 
@@ -102,9 +102,12 @@ void main() {
         source,
         contains('final RxBool hasEnabledCardPayment = false.obs;'),
       );
-      expect(source, contains('hasEnabledCardPayment.value ='));
-      expect(source, contains('appController.isWizarPosDevice.value'));
-      expect(source, contains('.where(isValidGw3WalletRoute)'));
+      // Demo build: acquirer routes are ignored and Ripple is the only
+      // wallet on offer, so card payment is pinned off rather than derived
+      // from the terminal's routes.
+      expect(source, contains('hasEnabledCardPayment.value = false;'));
+      expect(source, contains('_setDemoWalletList()'));
+      expect(source, isNot(contains('.where(isValidGw3WalletRoute)')));
     });
   });
 }

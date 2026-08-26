@@ -860,7 +860,7 @@ class DigitalPayment extends GetView<DigitalPaymentController> {
   }
 
   Widget getImageBrand() {
-    var ivWalletIcon = ImageConstant.oxpayIconTransparentBackground;
+    var ivWalletIcon = ImageConstant.oxygen7IconTransparentBackground;
     var titlePayment = '';
 
     switch (controller.routePaymentModel.acquirerDigital) {
@@ -1017,6 +1017,13 @@ class DigitalPayment extends GetView<DigitalPaymentController> {
         controller.isBtnScanQRVisible.value = false;
         controller.isBtnGenerateQRVisible.value = true;
         titlePayment = 'paymentMethodIouPay'.tr;
+        break;
+      case ConstantsO7Lite.RIPPLE_TYPE:
+        ivWalletIcon = ImageConstant.imageRipple;
+        // Merchant-presented only: there is no customer-presented code to scan.
+        controller.isBtnScanQRVisible.value = false;
+        controller.isBtnGenerateQRVisible.value = true;
+        titlePayment = 'paymentMethodRipple'.tr;
         break;
       default:
         break;

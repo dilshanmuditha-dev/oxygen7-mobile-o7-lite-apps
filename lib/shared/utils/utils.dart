@@ -77,6 +77,11 @@ int mapTransactionType(String type) {
 /// Brand keyword patterns for fuzzy matching
 /// Each entry contains keywords that identify a brand, ordered by specificity (most specific first)
 final List<_BrandPattern> _brandPatterns = [
+  // Demo build: Ripple is the only wallet the app offers.
+  _BrandPattern(
+    keywords: ['ripple', 'xrp'],
+    getImage: (_) => ImageConstant.imageRipple,
+  ),
   // ---- Malaysia (MY) specific brand variants ----
   // These must be checked BEFORE the generic patterns below because they
   // share the same prefixes (grab, shopback, tng) and would otherwise be
@@ -226,7 +231,7 @@ String _normalizeBrandName(String brandName) {
 /// Uses fuzzy matching with keyword patterns to handle variations in brand names
 String getBrandImage(String brandName, {bool isSGPLocation = true}) {
   if (brandName.isEmpty) {
-    return ImageConstant.oxpayIconTransparentBackground;
+    return ImageConstant.oxygen7IconTransparentBackground;
   }
 
   final normalizedBrand = _normalizeBrandName(brandName);
@@ -239,7 +244,7 @@ String getBrandImage(String brandName, {bool isSGPLocation = true}) {
   }
 
   // Fallback to default icon
-  return ImageConstant.oxpayIconTransparentBackground;
+  return ImageConstant.oxygen7IconTransparentBackground;
 }
 
 /// Returns a widget displaying the brand image

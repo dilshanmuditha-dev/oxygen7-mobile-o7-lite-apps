@@ -311,7 +311,7 @@ class RefundController extends GetxController {
   }
 
   Widget setImageTransactionRefund() {
-    var ivVoidWalletIcon = ImageConstant.oxpayIconTransparentBackground;
+    var ivVoidWalletIcon = ImageConstant.oxygen7IconTransparentBackground;
     var titlePayment = '';
 
     switch (mEtype) {
@@ -412,6 +412,10 @@ class RefundController extends GetxController {
         ivVoidWalletIcon = ImageConstant.imageIOUPay;
         titlePayment = 'paymentMethodIouPay'.tr;
         break;
+      case ConstantsO7Lite.RIPPLE_TYPE:
+        ivVoidWalletIcon = ImageConstant.imageRipple;
+        titlePayment = 'paymentMethodRipple'.tr;
+        break;
       default:
         isWallet = false;
         break;
@@ -462,7 +466,7 @@ class RefundController extends GetxController {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(8),
                         child: Image.asset(
-                          ImageConstant.oxpayIconTransparentBackground,
+                          ImageConstant.oxygen7IconTransparentBackground,
                           width: ResponsiveUtil().getSize(120),
                           height: ResponsiveUtil().getSize(120),
                           fit: BoxFit.cover,
@@ -518,7 +522,7 @@ class RefundController extends GetxController {
   }
 
   Widget setImageTransactionRefundGw3() {
-    var ivVoidWalletIcon = ImageConstant.oxpayIconTransparentBackground;
+    var ivVoidWalletIcon = ImageConstant.oxygen7IconTransparentBackground;
     var titlePayment = '';
 
     switch (mEtype) {

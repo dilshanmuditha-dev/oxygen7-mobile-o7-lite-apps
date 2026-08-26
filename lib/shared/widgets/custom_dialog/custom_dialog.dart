@@ -195,7 +195,7 @@ class CustomDialog {
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Image.asset(
-                ImageConstant.oxpayIconTransparentBackgroundSmall,
+                ImageConstant.oxygen7IconTransparentBackgroundSmall,
                 width: ResponsiveUtil().getSize(200),
                 height: ResponsiveUtil().getSize(200),
               ),
@@ -300,7 +300,7 @@ class CustomDialog {
                         child: !hasQrData
                             ? Image.asset(
                                 ImageConstant
-                                    .oxpayIconTransparentBackgroundSmall,
+                                    .oxygen7IconTransparentBackgroundSmall,
                                 width: qrInnerSize,
                                 height: qrInnerSize,
                               )

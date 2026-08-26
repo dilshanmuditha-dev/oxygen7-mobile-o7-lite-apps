@@ -127,7 +127,7 @@ class _SplashViewState extends State<SplashView> with TickerProviderStateMixin {
   Future<void> _setupSplash() async {
     try {
       await precacheImage(
-        AssetImage(ImageConstant.oxpayIconTransparentBackgroundSmall),
+        AssetImage(ImageConstant.oxygen7IconTransparentBackgroundSmall),
         context,
       );
     } catch (e) {
@@ -500,7 +500,7 @@ class _SplashViewState extends State<SplashView> with TickerProviderStateMixin {
       child: Center(
         child: _isLogoLoaded
             ? Image.asset(
-                ImageConstant.oxpayIconTransparentBackgroundSmall,
+                ImageConstant.oxygen7IconTransparentBackgroundSmall,
                 width: ResponsiveUtil().getSize(80),
                 height: ResponsiveUtil().getSize(80),
               )

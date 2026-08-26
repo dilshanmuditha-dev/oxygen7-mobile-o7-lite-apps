@@ -26,8 +26,6 @@ import '../../shared/constants/constants_o7lite.dart';
 import '../../shared/constants/image_constant.dart';
 import '../../shared/secure_shared_preferences/secure_shared_preferences.dart';
 import '../../shared/services/printer.dart';
-import '../../shared/utils/currency_mapper.dart';
-import '../../shared/utils/utils.dart';
 import 'components/tabIcon_data.dart';
 import 'tabs/tabs.dart';
 import 'package:app/shared/utils/log_utils.dart';
@@ -276,39 +274,33 @@ class HomeController extends GetxController with GetTickerProviderStateMixin {
   }
 
   void setListWalletTypeGw3(TerminalDetail terminalDetail) {
-    listWalletType.clear();
-    hasEnabledCardPayment.value = shouldEnableWizarPosCardPayment(
-      terminalDetail.routes,
-      isWizarPos: appController.isWizarPosDevice.value,
+    // Demo build: every acquirer route is ignored and a single Ripple wallet
+    // is exposed instead of the real payment methods.
+    hasEnabledCardPayment.value = false;
+    _setDemoWalletList();
+  }
+
+  /// Demo build: the app ships with one wallet - Ripple.
+  void _setDemoWalletList() {
+    final ripple = RoutePaymentModel(
+      title: CommonConstants.paymentMethodRipple.tr,
+      brand: ConstantsO7Lite.BRAND_RIPPLE,
+      image: ImageConstant.imageRipple,
+      acquireReport: ConstantsO7Lite.RIPPLE_HOST,
+      acquirer: ConstantsO7Lite.RIPPLE_HOST,
+      isActivated: true,
+      currency: 'SGD',
+      supportedCurrencies: const ['SGD'],
+      acquirerVoid: ConstantsO7Lite.RIPPLE_TYPE,
+      acquirerDigital: ConstantsO7Lite.RIPPLE_TYPE,
     );
 
-    // Get merchant's country code for default currency mapping
-    final countryCodeAlpha = terminalDetail.merchant.countryCodeAlpha;
-
-    final validRoutes = terminalDetail.routes.where(isValidGw3WalletRoute);
-
-    listWalletType.addAll(
-      validRoutes
-          .map((route) => RoutePaymentModel(
-                title: route.brand,
-                brand: route.brand,
-                image: getBrandImage(route.brand,
-                    isSGPLocation: appController.isSGPLocation()),
-                acquireReport: route.host,
-                acquirer: route.host,
-                isActivated: route.isActive,
-                // Use CurrencyMapper to get default currency based on country code
-                currency: CurrencyMapper.getDefaultCurrency(
-                  countryCodeAlpha,
-                  route.currencies,
-                ),
-                // Store all supported currencies for the route
-                supportedCurrencies: route.currencies,
-                acquirerVoid: route.host,
-                acquirerDigital: route.host,
-              ))
-          .toList(),
-    );
+    listWalletType
+      ..clear()
+      ..add(ripple);
+    listWalletTypePayNow
+      ..clear()
+      ..add(ripple);
   }
 
   Future<void> getUserLimoApp() async {
@@ -404,222 +396,8 @@ class HomeController extends GetxController with GetTickerProviderStateMixin {
   }
 
   void setDataList() {
-    listWalletType.clear();
-    listWalletTypePayNow.clear();
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.paymentMethodAlipayPlus.tr,
-        image: ImageConstant.imageAlipay,
-        acquireReport: ConstantsO7Lite.ALIPAY_HOST,
-        isActivated: isAlipayActivated,
-        currency: mRouteList[ConstantsO7Lite.ALIPAY_HOST]?.first,
-        acquirerVoid: ConstantsO7Lite.ALIPAY_TYPE,
-        acquirerDigital: ConstantsO7Lite.ALIPAY_TYPE,
-      ),
-    );
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.paymentMethodWeChatPay.tr,
-        image: ImageConstant.imageWechatPay,
-        acquireReport: ConstantsO7Lite.WECHAT_HOST,
-        isActivated: isWechatPayActivated,
-        currency: mRouteList[ConstantsO7Lite.WECHAT_HOST]?.first,
-        acquirerVoid: ConstantsO7Lite.WECHAT_TYPE,
-        acquirerDigital: ConstantsO7Lite.WECHAT_TYPE,
-      ),
-    );
-
-    var grabLogo = !appController.isSGPLocation()
-        ? ImageConstant.imageGrabDuitnow
-        : ImageConstant.imageGrabPay;
-    if (stringRouteList.contains(ConstantsO7Lite.GRABPAY_HOST)) {
-      listWalletType.add(
-        RoutePaymentModel(
-          title: CommonConstants.paymentMethodGrabPay.tr,
-          image: grabLogo,
-          acquireReport: ConstantsO7Lite.GRABPAY_HOST,
-          isActivated: isGrabPayActivated,
-          currency: mRouteList[ConstantsO7Lite.GRABPAY_HOST]?.first,
-          acquirerVoid: ConstantsO7Lite.GRABPAY_TYPE,
-          acquirerDigital: ConstantsO7Lite.GRABPAY_TYPE,
-        ),
-      );
-    } else {
-      listWalletType.add(
-        RoutePaymentModel(
-          title: CommonConstants.paymentMethodGrabPay.tr,
-          image: grabLogo,
-          acquireReport: ConstantsO7Lite.GRABPAY_V3_HOST,
-          isActivated: isGrabPayActivated,
-          currency: mRouteList[ConstantsO7Lite.GRABPAY_V3_HOST]?.first,
-          acquirerVoid: ConstantsO7Lite.GRABPAY_V3_TYPE,
-          acquirerDigital: ConstantsO7Lite.GRABPAY_V3_TYPE,
-        ),
-      );
-    }
-
-    if (mRouteList[ConstantsO7Lite.PAYNOW_EMVQR_HOST] != null) {
-      listWalletType.add(
-        RoutePaymentModel(
-          title: CommonConstants.paymentMethodPayNow.tr,
-          image: ImageConstant.imagePaynow,
-          acquireReport: ConstantsO7Lite.PAYNOW_EMVQR_HOST,
-          isActivated: isPayNowActivated,
-          currency: mRouteList[ConstantsO7Lite.PAYNOW_EMVQR_HOST]?.first,
-          acquirerVoid: ConstantsO7Lite.PAYNOW_TYPE,
-          acquirerDigital: ConstantsO7Lite.PAYNOW_TYPE,
-        ),
-      );
-      listWalletTypePayNow.add(
-        RoutePaymentModel(
-          title: CommonConstants.paymentMethodPayNow.tr,
-          image: ImageConstant.imagePaynow,
-          acquireReport: ConstantsO7Lite.PAYNOW_EMVQR_HOST,
-          isActivated: isPayNowActivated,
-          currency: mRouteList[ConstantsO7Lite.PAYNOW_EMVQR_HOST]?.first,
-          acquirerVoid: ConstantsO7Lite.PAYNOW_TYPE,
-          acquirerDigital: ConstantsO7Lite.PAYNOW_TYPE,
-        ),
-      );
-    } else {
-      listWalletType.add(
-        RoutePaymentModel(
-          title: CommonConstants.paymentMethodPayNow.tr,
-          image: ImageConstant.imagePaynow,
-          acquireReport: ConstantsO7Lite.PAYNOW_SCB_HOST,
-          isActivated: isPayNowActivated,
-          currency: mRouteList[ConstantsO7Lite.PAYNOW_SCB_HOST]?.first,
-          acquirerVoid: ConstantsO7Lite.PAYNOW_TYPE,
-          acquirerDigital: ConstantsO7Lite.PAYNOW_TYPE,
-        ),
-      );
-      listWalletTypePayNow.add(
-        RoutePaymentModel(
-          title: CommonConstants.paymentMethodPayNow.tr,
-          image: ImageConstant.imagePaynow,
-          acquireReport: ConstantsO7Lite.PAYNOW_SCB_HOST,
-          isActivated: isPayNowActivated,
-          currency: mRouteList[ConstantsO7Lite.PAYNOW_SCB_HOST]?.first,
-          acquirerVoid: ConstantsO7Lite.PAYNOW_TYPE,
-          acquirerDigital: ConstantsO7Lite.PAYNOW_TYPE,
-        ),
-      );
-    }
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.paymentMethodAtome.tr,
-        image: ImageConstant.imageAtome,
-        acquireReport: ConstantsO7Lite.ATOME_HOST,
-        isActivated: isAtomeActivated,
-        currency: mRouteList[ConstantsO7Lite.ATOME_HOST]?.first,
-        acquirerVoid: ConstantsO7Lite.ATOME_TYPE,
-        acquirerDigital: ConstantsO7Lite.ATOME_TYPE,
-      ),
-    );
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.paymentMethodThaiQr.tr,
-        image: ImageConstant.imageThaiQR,
-        acquireReport: ConstantsO7Lite.KBANK_THAIQR_HOST,
-        isActivated: isThaiQRActivated,
-        currency: mRouteList[ConstantsO7Lite.KBANK_THAIQR_HOST]?.first,
-        acquirerVoid: ConstantsO7Lite.THAIQR_TYPE,
-        acquirerDigital: ConstantsO7Lite.THAIQR_TYPE,
-      ),
-    );
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.paymentMethodDash.tr,
-        image: ImageConstant.imageSingleDash,
-        acquireReport: ConstantsO7Lite.DASH_HOST,
-        isActivated: isDashActivated,
-        currency: mRouteList[ConstantsO7Lite.DASH_HOST]?.first,
-        acquirerVoid: ConstantsO7Lite.DASH_TYPE,
-        acquirerDigital: ConstantsO7Lite.DASH_TYPE,
-      ),
-    );
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.creditCard.tr,
-        image: 'assets/o7lite/images/img_credit_card.png',
-        acquireReport: ConstantsO7Lite.CREDIT_CARD_HOST,
-        isActivated: isCreditCardActivated.value,
-        currency: mCreditCardCurrency,
-        creditCardActivated: mCreditCardHost,
-        acquirerVoid: ConstantsO7Lite.CARD_TYPE,
-        acquirerDigital: ConstantsO7Lite.CARD_TYPE,
-      ),
-    );
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.paymentMethodBoost.tr,
-        image: ImageConstant.imageBoost,
-        acquireReport: ConstantsO7Lite.BOOST_TOUCHNGO_HOST,
-        isActivated: isBootTouchNGoActivated,
-        currency: mRouteList[ConstantsO7Lite.BOOST_TOUCHNGO_HOST]?.first,
-        isBoost: true,
-        acquirerVoid: ConstantsO7Lite.BOOST_TYPE,
-        acquirerDigital: ConstantsO7Lite.BOOST_TYPE,
-      ),
-    );
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.paymentMethodTouchNGo.tr,
-        image: ImageConstant.iconTouchNGoEWallet,
-        acquireReport: ConstantsO7Lite.TOUCH_N_GO_HOST,
-        isActivated: isTouchNGoActivated,
-        currency: mRouteList[ConstantsO7Lite.TOUCH_N_GO_HOST]?.first,
-        acquirerVoid: ConstantsO7Lite.TOUCHNGO_TYPE,
-        acquirerDigital: ConstantsO7Lite.TOUCHNGO_TYPE,
-      ),
-    );
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.paymentMethodShopeePay.tr,
-        image: ImageConstant.imageShopeePay,
-        acquireReport: ConstantsO7Lite.SHOPPEE_HOST,
-        isActivated: isShopeeActivated,
-        currency: mRouteList[ConstantsO7Lite.SHOPPEE_HOST]?.first,
-        acquirerVoid: ConstantsO7Lite.SHOPEE_TYPE,
-        acquirerDigital: ConstantsO7Lite.SHOPEE_TYPE,
-      ),
-    );
-
-    listWalletType.add(
-      RoutePaymentModel(
-        title: CommonConstants.paymentMethodIouPay.tr,
-        image: ImageConstant.imageIOUPay,
-        acquireReport: ConstantsO7Lite.IOUPAY_HOST,
-        isActivated: isIouPayActivated,
-        currency: mRouteList[ConstantsO7Lite.IOUPAY_HOST]?.first,
-        acquirerDigital: ConstantsO7Lite.IOUPAY_TYPE,
-        acquirerVoid: ConstantsO7Lite.IOUPAY_TYPE,
-        // TODO : Currently isIouPayActivated does not support acquirerVoid
-      ),
-    );
-
-    // [Enhancement excluded in v3.0.7] Hide Grayed Out Wallets
-    listWalletType.removeWhere((element) => !element.isActivated);
-
-    listWalletType.sort((a, b) {
-      if (a.isActivated && !b.isActivated) {
-        return -1;
-      } else if (!a.isActivated && b.isActivated) {
-        return 1;
-      } else {
-        return 0;
-      }
-    });
-
+    // Demo build: Ripple is the only payment method on offer.
+    _setDemoWalletList();
     EasyLoading.dismiss();
   }
 

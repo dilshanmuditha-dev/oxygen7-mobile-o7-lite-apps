@@ -294,6 +294,7 @@ const Map<String, String> cn = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
+  'paymentMethodRipple': 'Ripple',
   'exitAppTitle': '退出应用',
   'exitAppMessage': '您确定要退出应用吗？',
   'initializingStatus': '正在初始化...',

@@ -1,12 +1,15 @@
 class ImageConstant {
-  static const oxpayIconTransparentBackground =
-      'assets/o7lite/images/oxpay_logo_transparent_background.png';
+  static const oxygen7IconTransparentBackground =
+      'assets/o7lite/images/oxygen7_logo_transparent_background.png';
 
-  static const oxpayIconTransparentBackgroundSmall =
-      'assets/o7lite/images/oxpay_logo_transparent_background_small.png';
+  static const oxygen7IconTransparentBackgroundSmall =
+      'assets/o7lite/images/oxygen7_logo_transparent_background_small.png';
 
-  static const oxpayIconTransparentBackgroundSvg =
-      'assets/o7lite/images/OX PAY logo.svg';
+  static const oxygen7IconTransparentBackgroundSvg =
+      'assets/o7lite/images/oxygen7_logo.svg';
+
+  /// Demo wallet - the only payment method exposed in the app
+  static const imageRipple = 'assets/o7lite/images/ripple.png';
 
   static String iconBottomHistory = 'assets/o7lite/icons/ic_history.svg';
 
@@ -95,7 +98,8 @@ class ImageConstant {
 
   static const iconMCPTxn = 'assets/o7lite/icons/icon_mcp.png';
 
-  static const iconOxayWallet = 'assets/o7lite/icons/icon_title_oxpay.png';
+  static const iconOxygen7Wallet =
+      'assets/o7lite/images/oxygen7_logo_transparent_background_small.png';
 
   static const iconAlipayWallet = 'assets/o7lite/icons/icon_title_alipay.png';
 

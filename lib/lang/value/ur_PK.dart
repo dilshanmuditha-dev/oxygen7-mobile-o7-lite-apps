@@ -258,6 +258,7 @@ const Map<String, String> ur = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
+  'paymentMethodRipple': 'Ripple',
   'exitAppTitle': 'ایپ سے باہر نکلیں',
   'exitAppMessage': 'کیا آپ واقعی ایپ سے باہر نکلنا چاہتے ہیں؟',
   'initializingStatus': 'شروع ہو رہا ہے...',

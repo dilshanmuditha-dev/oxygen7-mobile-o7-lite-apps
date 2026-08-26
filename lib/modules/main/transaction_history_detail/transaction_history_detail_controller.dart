@@ -830,6 +830,11 @@ class TransactionHistoryDetailController extends GetxController
       case ConstantsO7Lite.BRAND_SHOPEE:
         tempType = ConstantsO7Lite.SHOPEE_TYPE;
         break;
+      case ConstantsO7Lite.BRAND_RIPPLE:
+        // Routed through the generic wallet refund until the Ripple
+        // acquirer configuration is available.
+        tempType = ConstantsO7Lite.RIPPLE_TYPE;
+        break;
       case ConstantsO7Lite.BRAND_TOUCH_N_GO_DUITNOW_QR:
         tempType = ConstantsO7Lite.TOUCHNGO_TYPE;
         break;
@@ -926,7 +931,7 @@ class TransactionHistoryDetailController extends GetxController
     }
 
     var brandName = resultReceiptInfoData.value?.brandName ?? '';
-    var imageBrand = ImageConstant.iconOxayWallet;
+    var imageBrand = ImageConstant.iconOxygen7Wallet;
 
     switch (brandName) {
       case ConstantsO7Lite.BRAND_ALIPAY:
@@ -998,7 +1003,7 @@ class TransactionHistoryDetailController extends GetxController
         imageBrand = ImageConstant.iconTouchNGoxDuitNow;
         break;
       default:
-        imageBrand = ImageConstant.iconOxayWallet;
+        imageBrand = ImageConstant.iconOxygen7Wallet;
         break;
     }
 
@@ -1074,7 +1079,7 @@ class TransactionHistoryDetailController extends GetxController
       case ConstantsO7Lite.BRAND_IOUPAY:
         return ImageConstant.iconIOUpayWallet;
       default:
-        return ImageConstant.iconOxayWallet;
+        return ImageConstant.iconOxygen7Wallet;
     }
   }
 

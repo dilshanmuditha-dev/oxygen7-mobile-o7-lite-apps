@@ -286,6 +286,7 @@ const Map<String, String> ja = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
+  'paymentMethodRipple': 'Ripple',
   'exitAppTitle': 'アプリを終了',
   'exitAppMessage': 'アプリを終了してもよろしいですか？',
   'initializingStatus': '初期化中...',

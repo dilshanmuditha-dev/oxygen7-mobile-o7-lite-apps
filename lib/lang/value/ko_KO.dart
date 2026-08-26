@@ -285,6 +285,7 @@ const Map<String, String> ko = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
+  'paymentMethodRipple': 'Ripple',
   'exitAppTitle': '앱 종료',
   'exitAppMessage': '앱을 종료하시겠습니까?',
   'initializingStatus': '초기화 중...',

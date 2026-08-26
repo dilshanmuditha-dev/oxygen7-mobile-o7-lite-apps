@@ -327,6 +327,7 @@ class CommonConstants {
   static const String paymentMethodTouchNGo = 'paymentMethodTouchNGo';
   static const String paymentMethodShopeePay = 'paymentMethodShopeePay';
   static const String paymentMethodIouPay = 'paymentMethodIouPay';
+  static const String paymentMethodRipple = 'paymentMethodRipple';
   static const String exitAppTitle = 'exitAppTitle';
   static const String exitAppMessage = 'exitAppMessage';
   static const String initializingStatus = 'initializingStatus';

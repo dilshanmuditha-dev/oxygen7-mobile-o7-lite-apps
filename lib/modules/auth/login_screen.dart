@@ -83,7 +83,7 @@ class LoginScreen extends GetView<AuthController> {
                                           top: ResponsiveUtil().getSize(80)),
                                       child: SvgPicture.asset(
                                         ImageConstant
-                                            .oxpayIconTransparentBackgroundSvg,
+                                            .oxygen7IconTransparentBackgroundSvg,
                                         fit: BoxFit.contain,
                                         width: ResponsiveUtil().getSize(166),
                                         height: ResponsiveUtil().getSize(76),

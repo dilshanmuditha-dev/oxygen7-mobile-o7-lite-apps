@@ -16,6 +16,7 @@ import 'modules/splash/splash_binding.dart';
 import 'modules/splash/splash_view.dart';
 import 'routes/app_pages.dart';
 import 'shared/constants/colors.dart';
+import 'shared/constants/image_constant.dart';
 import 'shared/secure_storage/secure_storage_service.dart';
 import 'shared/security/root_detection_service.dart';
 import 'shared/services/local_data_upgrade_migration_service.dart';
@@ -207,7 +208,7 @@ class _RootedWarningScreen extends StatelessWidget {
                       color: Colors.grey.shade100,
                     ),
                     child: Image.asset(
-                      'assets/o7lite/images/oxpay_logo_transparent_background_small.png',
+                      ImageConstant.oxygen7IconTransparentBackgroundSmall,
                       width: 72,
                       height: 72,
                       errorBuilder: (_, __, ___) => const Icon(

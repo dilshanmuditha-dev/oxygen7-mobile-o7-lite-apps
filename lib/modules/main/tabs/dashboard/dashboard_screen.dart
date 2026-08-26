@@ -58,7 +58,7 @@ class DashBoardScreen extends GetView<HomeController> {
                     : Color(0xFFFBFBFB)),
             key: _scaffoldKey,
             drawer: DrawerBarScreen(
-              logoAsset: ImageConstant.oxpayIconTransparentBackgroundSvg,
+              logoAsset: ImageConstant.oxygen7IconTransparentBackgroundSvg,
             ),
             appBar: _buildAppBar(),
             extendBody: true,
@@ -533,18 +533,8 @@ class DashBoardScreen extends GetView<HomeController> {
 
   // Check if any payment method is activated
   bool _isAnyPaymentMethodActivated() {
-    return controller.isAlipayActivated ||
-        controller.isGrabPayActivated ||
-        controller.isWechatPayActivated ||
-        controller.isDashActivated ||
-        controller.isPayNowActivated ||
-        controller.isAtomeActivated ||
-        controller.isThaiQRActivated ||
-        controller.isBootTouchNGoActivated ||
-        controller.isTouchNGoActivated ||
-        controller.isCreditCardActivated.value ||
-        controller.isShopeeActivated ||
-        controller.isIouPayActivated;
+    // Demo build: driven by the single Ripple wallet in the list.
+    return controller.listWalletType.isNotEmpty;
   }
 
   // Build app bar matching Figma design
@@ -562,7 +552,7 @@ class DashBoardScreen extends GetView<HomeController> {
               ? ColorConstants.grey800
               : Colors.white),
       title: SvgPicture.asset(
-        ImageConstant.oxpayIconTransparentBackgroundSvg,
+        ImageConstant.oxygen7IconTransparentBackgroundSvg,
         fit: BoxFit.contain,
         width: 58,
         height: 26,

@@ -186,7 +186,7 @@ class CreateAccountScreen extends GetView<CreateAccountController> {
                             // margin: EdgeInsets.only(
                             //     top: ResponsiveUtil().getSize(0)),
                             child: SvgPicture.asset(
-                              ImageConstant.oxpayIconTransparentBackgroundSvg,
+                              ImageConstant.oxygen7IconTransparentBackgroundSvg,
                               fit: BoxFit.contain,
                               width: ResponsiveUtil().getSize(166),
                               height: ResponsiveUtil().getSize(76),
