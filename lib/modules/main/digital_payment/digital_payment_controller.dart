@@ -395,6 +395,13 @@ class DigitalPaymentController extends GetxController with AutoPollingMixin {
       status: '${CommonConstants.loading.tr}...',
     );
 
+    // Demo build: the Ripple acquirer is not configured yet, so build the
+    // payment request locally and reuse the standard QR dialog.
+    if (routePaymentModel.acquirerDigital == ConstantsO7Lite.RIPPLE_TYPE) {
+      await _showRippleDemoQr(context, routePaymentModel);
+      return;
+    }
+
     // PaymentSource paymentSource = PaymentSource(
     //   name: nameController.text,
     //   email: emailController.text,
@@ -452,6 +459,35 @@ class DigitalPaymentController extends GetxController with AutoPollingMixin {
         CommonConstants.unknown.tr,
       );
     }
+  }
+
+  /// Demo build: renders the standard QR dialog for Ripple from a locally
+  /// generated payment request. Status polling is skipped because there is no
+  /// gateway transaction to query until the Ripple configuration lands.
+  Future<void> _showRippleDemoQr(
+    BuildContext context,
+    RoutePaymentModel routePaymentModel,
+  ) async {
+    mTotalAmount = amountDigitalDetailController.text.trim();
+    mDescription = descriptionDigitalDetailController.text.trim();
+
+    // Keep the loading state visible briefly so the flow matches the live one.
+    await Future.delayed(const Duration(milliseconds: 600));
+    await EasyLoading.dismiss();
+
+    mTransactionId.value = 'RPL${DateTime.now().millisecondsSinceEpoch}';
+
+    final qrString = Uri(
+      scheme: 'ripple',
+      path: ConstantsO7Lite.RIPPLE_DEMO_ADDRESS,
+      queryParameters: {
+        'amount': mTotalAmount ?? '0',
+        'currency': selectedCurrency.value,
+        'dt': mTransactionId.value,
+      },
+    ).toString();
+
+    showQRDialog(context, qrString, routePaymentModel);
   }
 
   void generateQrCode(
