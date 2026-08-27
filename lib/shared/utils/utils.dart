@@ -74,6 +74,14 @@ int mapTransactionType(String type) {
   }
 }
 
+/// Demo build: whether a transaction was created locally for the Ripple demo
+/// flow rather than by the gateway, so the receipt is built on the device.
+bool isRippleDemoTransaction(String? transactionId) {
+  return transactionId
+          ?.startsWith(ConstantsO7Lite.RIPPLE_DEMO_TXN_PREFIX) ??
+      false;
+}
+
 /// Brand keyword patterns for fuzzy matching
 /// Each entry contains keywords that identify a brand, ordered by specificity (most specific first)
 final List<_BrandPattern> _brandPatterns = [

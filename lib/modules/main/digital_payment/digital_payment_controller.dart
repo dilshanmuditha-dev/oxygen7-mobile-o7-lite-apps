@@ -29,6 +29,7 @@ import '../../../shared/mixins/auto_polling_mixin.dart';
 import '../../../shared/utils/enum/app_dialog_type.dart';
 import '../home_controller.dart';
 import 'package:app/shared/utils/log_utils.dart';
+import 'package:app/shared/utils/utils.dart';
 
 class DigitalPaymentController extends GetxController with AutoPollingMixin {
   final ApiRepository apiRepository;
@@ -461,6 +462,32 @@ class DigitalPaymentController extends GetxController with AutoPollingMixin {
     }
   }
 
+  /// Demo build: the receipt shown for a Ripple payment, built from the details
+  /// entered on this screen. Refund and void stay disabled because both need
+  /// the acquirer.
+  QuerryReceiptInforResponse _buildRippleDemoReceipt() {
+    final timestamp = DateTime.now().toIso8601String();
+    final amountInCents = StringUtils.toCents(mTotalAmount?.trim() ?? '');
+
+    return QuerryReceiptInforResponse(
+      transactionId: mTransactionId.value,
+      receiptNumber: mTransactionId.value,
+      brandName: ConstantsO7Lite.BRAND_RIPPLE,
+      currency: selectedCurrency.value,
+      totalAmount: amountInCents,
+      salesAmount: amountInCents,
+      transactionState: GW3TransactionState.APPROVED,
+      transactionType: GW3TransactionType.SALE,
+      remarks: mDescription,
+      clientRequestDate: timestamp,
+      gatewayRequestDate: timestamp,
+      gatewayResponseDate: timestamp,
+      hostResponseDate: timestamp,
+      isAllowRefund: false,
+      isAllowVoid: false,
+    );
+  }
+
   /// Demo build: renders the standard QR dialog for Ripple from a locally
   /// generated payment request. Status polling is skipped because there is no
   /// gateway transaction to query until the Ripple configuration lands.
@@ -475,7 +502,8 @@ class DigitalPaymentController extends GetxController with AutoPollingMixin {
     await Future.delayed(const Duration(milliseconds: 600));
     await EasyLoading.dismiss();
 
-    mTransactionId.value = 'RPL${DateTime.now().millisecondsSinceEpoch}';
+    mTransactionId.value = '${ConstantsO7Lite.RIPPLE_DEMO_TXN_PREFIX}'
+        '${DateTime.now().millisecondsSinceEpoch}';
 
     final qrString = Uri(
       scheme: 'ripple',
@@ -706,6 +734,10 @@ class DigitalPaymentController extends GetxController with AutoPollingMixin {
             'mTransactionId': mTransactionId.value,
             'isDonation': BaseAppO7Lite.isDonationMode,
             'comeFromScreen': TransactionState.COMEFROMDIGITALPAYMENT,
+            // Demo build: the Ripple transaction has no gateway record, so the
+            // receipt travels with the route instead of being queried.
+            if (isRippleDemoTransaction(mTransactionId.value))
+              'resultReceiptInfo': _buildRippleDemoReceipt(),
           },
         );
       },

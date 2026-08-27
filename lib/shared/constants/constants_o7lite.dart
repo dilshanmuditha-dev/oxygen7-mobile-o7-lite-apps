@@ -70,10 +70,12 @@ class ConstantsO7Lite {
   static const String ALETAQRC_HOST = "aletaQrcHost";
   static const String FAKE_GIFT_HOST = "fakeGiftHost";
   static const String RIPPLE_HOST = "rippleHost";
-  // Demo build: placeholder destination used to build the Ripple QR payload
-  // until the real acquirer configuration is available.
+  // Demo build: placeholder destination and transaction prefix used until the
+  // real Ripple acquirer configuration is available. Transactions created this
+  // way exist only on the device.
   static const String RIPPLE_DEMO_ADDRESS =
       "rN7n7otQDd6FczFgLdSqtcsAUxDkw6fzRH";
+  static const String RIPPLE_DEMO_TXN_PREFIX = "RPL";
 
   // Payment Type
   static const String ALIPAY_TYPE = "77772";

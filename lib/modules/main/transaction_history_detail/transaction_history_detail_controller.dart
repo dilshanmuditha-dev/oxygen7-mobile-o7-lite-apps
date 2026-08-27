@@ -182,16 +182,22 @@ class TransactionHistoryDetailController extends GetxController
       stopPolling();
     }
 
+    // Demo build: a Ripple transaction exists only on the device, so keep using
+    // the receipt handed over with the route instead of querying the gateway.
+    final bool isDemoReceipt = isRippleDemoTransaction(mTransactionId.value);
+
     final resultReceiptInfo = resultReceiptInfoArgument ??
-        await apiRepository.querryReceiptInfor(
-          QuerryReceiptInforRequest(
-            transactionId: mTransactionId.value,
-          ),
-          StorageService.isGw3,
-        );
+        (isDemoReceipt
+            ? null
+            : await apiRepository.querryReceiptInfor(
+                QuerryReceiptInforRequest(
+                  transactionId: mTransactionId.value,
+                ),
+                StorageService.isGw3,
+              ));
     EasyLoading.dismiss();
     if (resultReceiptInfo != null) {
-      resultReceiptInfoArgument = null;
+      if (!isDemoReceipt) resultReceiptInfoArgument = null;
       // if navigate from Void screen will self-update transaction state,
       // because sometime is slowly load data and keep old status
       if (comeFromScreen == TransactionState.COMEFROMVOID &&
