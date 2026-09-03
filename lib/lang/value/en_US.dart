@@ -76,7 +76,7 @@ const Map<String, String> en = {
   'exit': 'Exit',
   'beyondDigitalPayment': 'Beyond Digital Payment',
   'version': 'Version 3.0',
-  'copyright': 'Powered by © OxPay SG Pte Ltd – 2026',
+  'copyright': 'Powered by © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'Don\'t have an account? Create account',
@@ -85,7 +85,7 @@ const Map<String, String> en = {
   'device': 'Device',
   'userID': 'User ID',
   'terminal': 'Terminal',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'User Guide',
   'info': 'Info',
   'error': 'Error',
@@ -103,7 +103,7 @@ const Map<String, String> en = {
   'success': 'Success',
   'voided': 'Voided',
   'content1':
-      'Thank you for visiting oxpayfinancial.com website (the “Site”). The Site is an Internet property of OxPay SG Pte Ltd (“OxPay,” “we” or “us”). This OxPay Privacy Policy (“Privacy Policy”) sets out how we use, share and protect Personal Information (as hereinafter defined) and other information that we collect when you: (a) access or use the Site; (b) register to become a Member; and/or (c) use the OxPay Site including, without limitation, the Services and/or Promotions.',
+      'Thank you for visiting oxpayfinancial.com website (the “Site”). The Site is an Internet property of Oxygen7 (“Oxygen7,” “we” or “us”). This Oxygen7 Privacy Policy (“Privacy Policy”) sets out how we use, share and protect Personal Information (as hereinafter defined) and other information that we collect when you: (a) access or use the Site; (b) register to become a Member; and/or (c) use the Oxygen7 Site including, without limitation, the Services and/or Promotions.',
   'content2':
       'YOU MUST AFFIRMATIVELY CONSENT TO USE OUR SITE, AND BY DOING SO, YOU CONSENT TO THIS PRIVACY POLICY. IF YOU DO NOT AGREE TO THE TERMS OF THIS PRIVACY POLICY IN THEIR ENTIRETY, YOU MAY NOTYOU MUST AFFIRMATIVELY CONSENT TO USE OUR SITE, AND BY DOING SO, YOU CONSENT TO THIS PRIVACY POLICY. IF YOU DO NOT AGREE TO THE TERMS OF THIS PRIVACY POLICY IN THEIR ENTIRETY, YOU MAY NOT',
   'cardAccept': 'Card Accept',
@@ -302,7 +302,7 @@ const Map<String, String> en = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'Exit App',
   'exitAppMessage': 'Are you sure you want to exit the app?',
   'initializingStatus': 'Initializing...',

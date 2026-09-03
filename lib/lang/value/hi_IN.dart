@@ -77,7 +77,7 @@ const Map<String, String> hi = {
   'exit': 'बाहर निकलें',
   'beyondDigitalPayment': 'डिजिटल पेमेंट से आगे',
   'version': 'वर्जन 3.0',
-  'copyright': 'कॉपीराइट © OxPay SG Pte Ltd – 2026',
+  'copyright': 'कॉपीराइट © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'कोई खाता नहीं? खाता बनाएं',
@@ -86,7 +86,7 @@ const Map<String, String> hi = {
   'device': 'डिवाइस',
   'userID': 'यूजर आईडी',
   'terminal': 'टर्मिनल',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'उपयोगकर्ता गाइड',
   'info': 'जानकारी',
   'error': 'त्रुटि',
@@ -261,7 +261,7 @@ const Map<String, String> hi = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'ऐप से बाहर निकलें',
   'exitAppMessage': 'क्या आप वाकई ऐप से बाहर निकलना चाहते हैं?',
   'initializingStatus': 'प्रारंभ हो रहा है...',
@@ -426,7 +426,7 @@ const Map<String, String> hi = {
       'कृपया Txn History टैब में लेनदेन की स्थिति जांचें या support@oxpayfinancial.com पर हमारी सपोर्ट टीम से संपर्क करें',
   'communityChestDonation': 'कम्युनिटी चेस्ट दान',
   'content1':
-      'oxpayfinancial.com वेबसाइट ("साइट") पर आने के लिए धन्यवाद। साइट OxPay SG Pte Ltd ("OxPay" या "हम") की एक इंटरनेट संपत्ति है। यह गोपनीयता नीति निर्धारित करती है कि हम व्यक्तिगत जानकारी का उपयोग, साझा और सुरक्षा कैसे करते हैं।',
+      'oxpayfinancial.com वेबसाइट ("साइट") पर आने के लिए धन्यवाद। साइट Oxygen7 ("Oxygen7" या "हम") की एक इंटरनेट संपत्ति है। यह गोपनीयता नीति निर्धारित करती है कि हम व्यक्तिगत जानकारी का उपयोग, साझा और सुरक्षा कैसे करते हैं।',
   'content2':
       'आपको हमारी साइट का उपयोग करने के लिए सहमति देनी होगी, और ऐसा करके आप इस गोपनीयता नीति से सहमत होते हैं। यदि आप इस गोपनीयता नीति की शर्तों से पूर्ण रूप से सहमत नहीं हैं, तो आप साइट का उपयोग नहीं कर सकते।',
   'contentOxPay': 'पहले लॉगिन करने के लिए उपयोग किया गया Oxygen7 TID दर्ज करें।',

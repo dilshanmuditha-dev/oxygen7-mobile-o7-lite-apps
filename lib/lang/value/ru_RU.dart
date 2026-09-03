@@ -77,7 +77,7 @@ const Map<String, String> ru = {
   'exit': 'Выход',
   'beyondDigitalPayment': 'По ту сторону цифровых платежей',
   'version': 'Версия 3.0',
-  'copyright': 'Авторские права © OxPay SG Pte Ltd – 2026',
+  'copyright': 'Авторские права © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'Нет аккаунта? Создать аккаунт',
@@ -86,7 +86,7 @@ const Map<String, String> ru = {
   'device': 'Устройство',
   'userID': 'ID Пользователя',
   'terminal': 'Терминал',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'Руководство Пользователя',
   'info': 'Информация',
   'error': 'Ошибка',
@@ -258,7 +258,7 @@ const Map<String, String> ru = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'Выход из приложения',
   'exitAppMessage': 'Вы уверены, что хотите выйти из приложения?',
   'initializingStatus': 'Инициализация...',
@@ -422,7 +422,7 @@ const Map<String, String> ru = {
       'Пожалуйста, проверьте статус транзакции на вкладке История Txn или свяжитесь с нашей командой поддержки по адресу support@oxpayfinancial.com',
   'communityChestDonation': 'Пожертвование Community Chest',
   'content1':
-      'Спасибо за посещение сайта oxpayfinancial.com ("Сайт"). Сайт является интернет-собственностью OxPay SG Pte Ltd ("OxPay" или "мы"). Эта Политика конфиденциальности определяет, как мы используем, делимся и защищаем Личную информацию.',
+      'Спасибо за посещение сайта oxpayfinancial.com ("Сайт"). Сайт является интернет-собственностью Oxygen7 ("Oxygen7" или "мы"). Эта Политика конфиденциальности определяет, как мы используем, делимся и защищаем Личную информацию.',
   'content2':
       'ВЫ ДОЛЖНЫ ДАТЬ СОГЛАСИЕ НА ИСПОЛЬЗОВАНИЕ НАШЕГО САЙТА, И ДЕЛАЯ ЭТО, ВЫ СОГЛАШАЕТЕСЬ С ЭТОЙ ПОЛИТИКОЙ КОНФИДЕНЦИАЛЬНОСТИ. ЕСЛИ ВЫ НЕ СОГЛАСНЫ С УСЛОВИЯМИ ЭТОЙ ПОЛИТИКИ КОНФИДЕНЦИАЛЬНОСТИ В ПОЛНОМ ОБЪЕМЕ, ВЫ НЕ МОЖЕТЕ ИСПОЛЬЗОВАТЬ САЙТ.',
   'contentOxPay': 'Введите Oxygen7 TID, который вы использовали для входа ранее.',

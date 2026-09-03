@@ -76,7 +76,7 @@ const Map<String, String> ar = {
   'exit': 'خروج',
   'beyondDigitalPayment': 'ما وراء الدفع الرقمي',
   'version': 'الإصدار 3.0',
-  'copyright': 'حقوق الطبع © OxPay SG Pte Ltd – 2026',
+  'copyright': 'حقوق الطبع © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'ليس لديك حساب؟ إنشاء حساب',
@@ -85,7 +85,7 @@ const Map<String, String> ar = {
   'device': 'الجهاز',
   'userID': 'معرّف المستخدم',
   'terminal': 'المحطة الطرفية',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'دليل المستخدم',
   'info': 'معلومات',
   'error': 'خطأ',
@@ -254,7 +254,7 @@ const Map<String, String> ar = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'الخروج من التطبيق',
   'exitAppMessage': 'هل أنت متأكد من أنك تريد الخروج من التطبيق؟',
   'initializingStatus': 'جارٍ التهيئة...',
@@ -415,7 +415,7 @@ const Map<String, String> ar = {
       'يرجى التحقق من حالة المعاملة في علامة تبويب سجل المعاملات أو الاتصال بفريق الدعم على support@oxpayfinancial.com',
   'communityChestDonation': 'تبرع صندوق المجتمع',
   'content1':
-      'شكراً لزيارتك موقع oxpayfinancial.com ("الموقع"). الموقع هو ملكية إنترنت لشركة OxPay SG Pte Ltd ("OxPay" أو "نحن"). تحدد سياسة الخصوصية هذه كيفية استخدامنا ومشاركتنا وحماية المعلومات الشخصية.',
+      'شكراً لزيارتك موقع oxpayfinancial.com ("الموقع"). الموقع هو ملكية إنترنت لشركة Oxygen7 ("Oxygen7" أو "نحن"). تحدد سياسة الخصوصية هذه كيفية استخدامنا ومشاركتنا وحماية المعلومات الشخصية.',
   'content2':
       'يجب عليك الموافقة بشكل إيجابي على استخدام موقعنا، وبذلك فإنك توافق على سياسة الخصوصية هذه. إذا كنت لا توافق على شروط سياسة الخصوصية هذه بالكامل، فلا يجوز لك استخدام الموقع.',
   'contentOxPay': 'أدخل Oxygen7 TID الذي استخدمته لتسجيل الدخول سابقاً.',

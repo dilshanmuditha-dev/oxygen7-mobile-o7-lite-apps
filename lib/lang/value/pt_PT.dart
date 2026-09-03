@@ -77,7 +77,7 @@ const Map<String, String> pt = {
   'exit': 'Sair',
   'beyondDigitalPayment': 'Além do Pagamento Digital',
   'version': 'Versão 3.0',
-  'copyright': 'Direitos autorais © OxPay SG Pte Ltd – 2026',
+  'copyright': 'Direitos autorais © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'Não tem uma conta? Criar conta',
@@ -86,7 +86,7 @@ const Map<String, String> pt = {
   'device': 'Dispositivo',
   'userID': 'ID do Usuário',
   'terminal': 'Terminal',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'Guia do Usuário',
   'info': 'Informação',
   'error': 'Erro',
@@ -264,7 +264,7 @@ const Map<String, String> pt = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'Sair do App',
   'exitAppMessage': 'Tem certeza de que deseja sair do app?',
   'initializingStatus': 'Inicializando...',
@@ -431,7 +431,7 @@ const Map<String, String> pt = {
       'Por favor, verifique o status da transação na aba Histórico de Txn ou contate nossa equipe de suporte em support@oxpayfinancial.com',
   'communityChestDonation': 'Doação Community Chest',
   'content1':
-      'Obrigado por visitar o site oxpayfinancial.com (o "Site"). O Site é uma propriedade da Internet da OxPay SG Pte Ltd ("OxPay" ou "nós"). Esta Política de Privacidade define como usamos, compartilhamos e protegemos Informações Pessoais.',
+      'Obrigado por visitar o site oxpayfinancial.com (o "Site"). O Site é uma propriedade da Internet da Oxygen7 ("Oxygen7" ou "nós"). Esta Política de Privacidade define como usamos, compartilhamos e protegemos Informações Pessoais.',
   'content2':
       'VOCÊ DEVE CONSENTIR AFIRMATIVAMENTE O USO DO NOSSO SITE, E AO FAZÊ-LO, VOCÊ CONSENTE COM ESTA POLÍTICA DE PRIVACIDADE. SE VOCÊ NÃO CONCORDAR COM OS TERMOS DESTA POLÍTICA DE PRIVACIDADE EM SUA TOTALIDADE, VOCÊ NÃO PODE USAR O SITE.',
   'contentOxPay':

@@ -77,7 +77,7 @@ const Map<String, String> ur = {
   'exit': 'باہر نکلیں',
   'beyondDigitalPayment': 'ڈیجیٹل پیمنٹ سے آگے',
   'version': 'ورژن 3.0',
-  'copyright': 'کاپی رائٹ © OxPay SG Pte Ltd – 2026',
+  'copyright': 'کاپی رائٹ © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'کوئی اکاؤنٹ نہیں؟ اکاؤنٹ بنائیں',
@@ -86,7 +86,7 @@ const Map<String, String> ur = {
   'device': 'ڈیوائس',
   'userID': 'صارف آئی ڈی',
   'terminal': 'ٹرمینل',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'صارف گائیڈ',
   'info': 'معلومات',
   'error': 'خرابی',
@@ -258,7 +258,7 @@ const Map<String, String> ur = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'ایپ سے باہر نکلیں',
   'exitAppMessage': 'کیا آپ واقعی ایپ سے باہر نکلنا چاہتے ہیں؟',
   'initializingStatus': 'شروع ہو رہا ہے...',
@@ -423,7 +423,7 @@ const Map<String, String> ur = {
       'براہ کرم Txn History ٹیب میں لین دین کی حیثیت چیک کریں یا support@oxpayfinancial.com پر ہماری سپورٹ ٹیم سے رابطہ کریں',
   'communityChestDonation': 'کمیونٹی چیسٹ عطیہ',
   'content1':
-      'oxpayfinancial.com ویب سائٹ ("سائٹ") پر آنے کا شکریہ۔ سائٹ OxPay SG Pte Ltd ("OxPay" یا "ہم") کی انٹرنیٹ پراپرٹی ہے۔ یہ رازداری کی پالیسی بیان کرتی ہے کہ ہم ذاتی معلومات کو کیسے استعمال، شیئر اور محفوظ کرتے ہیں۔',
+      'oxpayfinancial.com ویب سائٹ ("سائٹ") پر آنے کا شکریہ۔ سائٹ Oxygen7 ("Oxygen7" یا "ہم") کی انٹرنیٹ پراپرٹی ہے۔ یہ رازداری کی پالیسی بیان کرتی ہے کہ ہم ذاتی معلومات کو کیسے استعمال، شیئر اور محفوظ کرتے ہیں۔',
   'content2':
       'آپ کو ہماری سائٹ استعمال کرنے کے لیے رضامندی دینی ہوگی، اور ایسا کرکے آپ اس رازداری کی پالیسی سے متفق ہیں۔ اگر آپ اس رازداری کی پالیسی کی شرائط سے مکمل طور پر متفق نہیں ہیں، تو آپ سائٹ استعمال نہیں کر سکتے۔',
   'contentOxPay': 'پہلے لاگ ان کرنے کے لیے استعمال کیا گیا Oxygen7 TID درج کریں۔',

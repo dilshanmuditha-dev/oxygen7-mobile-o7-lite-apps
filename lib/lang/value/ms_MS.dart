@@ -76,7 +76,7 @@ const Map<String, String> ms = {
   'exit': 'Keluar',
   'beyondDigitalPayment': 'Melampaui Pembayaran Digital',
   'version': 'Versi 3.0',
-  'copyright': 'Hak Cipta © OxPay SG Pte Ltd – 2026',
+  'copyright': 'Hak Cipta © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'Tiada akaun? Cipta akaun',
@@ -85,7 +85,7 @@ const Map<String, String> ms = {
   'device': 'Peranti',
   'userID': 'ID Pengguna',
   'terminal': 'Terminal',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'Panduan Pengguna',
   'info': 'Maklumat',
   'error': 'Ralat',
@@ -104,7 +104,7 @@ const Map<String, String> ms = {
   'success': 'Berjaya',
   'voided': 'Dibatalkan',
   'content1':
-      'Terima kasih kerana mengunjungi laman web oxpayfinancial.com ( "Laman"). Laman ini adalah harta Internet OxPay SG Pte Ltd ("OxPay," "kami" atau "kita"). Dasar Privasi OxPay ("Dasar Privasi") ini menerangkan bagaimana kami menggunakan, berkongsi, dan melindungi Maklumat Peribadi (seperti yang dinyatakan selepas ini) dan maklumat lain yang kami kumpul apabila anda: (a) mengakses atau menggunakan Laman; (b) mendaftar untuk menjadi Ahli; dan/atau (c) menggunakan Laman OxPay termasuk, tanpa had, Perkhidmatan dan/atau Promosi.',
+      'Terima kasih kerana mengunjungi laman web oxpayfinancial.com ( "Laman"). Laman ini adalah harta Internet Oxygen7 ("Oxygen7," "kami" atau "kita"). Dasar Privasi Oxygen7 ("Dasar Privasi") ini menerangkan bagaimana kami menggunakan, berkongsi, dan melindungi Maklumat Peribadi (seperti yang dinyatakan selepas ini) dan maklumat lain yang kami kumpul apabila anda: (a) mengakses atau menggunakan Laman; (b) mendaftar untuk menjadi Ahli; dan/atau (c) menggunakan Laman Oxygen7 termasuk, tanpa had, Perkhidmatan dan/atau Promosi.',
   'content2':
       'ANDA MESTILAH BERSETUJU UNTUK MENGGUNAKAN LAMAN KAMI, DAN DENGAN BERBUAT DEMIKIAN, ANDA BERSETUJU TERHADAP DASAR PRIVASI INI. JIKA ANDA TIDAK BERSETUJU DENGAN TERMA DASAR PRIVASI INI SECARA KESELURUHAN MEREKA, ANDA MUNGKIN TIDAK.',
   'cardAccept': 'Pembayaran Kad',
@@ -310,7 +310,7 @@ const Map<String, String> ms = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'Keluar Aplikasi',
   'exitAppMessage': 'Adakah anda pasti mahu keluar dari aplikasi?',
   'initializingStatus': 'Memulakan...',

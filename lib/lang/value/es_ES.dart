@@ -77,7 +77,7 @@ const Map<String, String> es = {
   'exit': 'Salir',
   'beyondDigitalPayment': 'Más allá del Pago Digital',
   'version': 'Versión 3.0',
-  'copyright': 'Derechos de autor © OxPay SG Pte Ltd – 2026',
+  'copyright': 'Derechos de autor © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': '¿No tienes una cuenta? Crear cuenta',
@@ -86,7 +86,7 @@ const Map<String, String> es = {
   'device': 'Dispositivo',
   'userID': 'ID de Usuario',
   'terminal': 'Terminal',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'Guía del Usuario',
   'info': 'Información',
   'error': 'Error',
@@ -263,7 +263,7 @@ const Map<String, String> es = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'Salir de la app',
   'exitAppMessage': '¿Estás seguro de que quieres salir de la app?',
   'initializingStatus': 'Inicializando...',
@@ -430,7 +430,7 @@ const Map<String, String> es = {
       'Por favor verifique el estado de la transacción en la pestaña Historial de Txn o contacte a nuestro equipo de soporte en support@oxpayfinancial.com',
   'communityChestDonation': 'Donación Community Chest',
   'content1':
-      'Gracias por visitar el sitio web oxpayfinancial.com (el "Sitio"). El Sitio es una propiedad de Internet de OxPay SG Pte Ltd ("OxPay" o "nosotros"). Esta Política de Privacidad establece cómo usamos, compartimos y protegemos la Información Personal.',
+      'Gracias por visitar el sitio web oxpayfinancial.com (el "Sitio"). El Sitio es una propiedad de Internet de Oxygen7 ("Oxygen7" o "nosotros"). Esta Política de Privacidad establece cómo usamos, compartimos y protegemos la Información Personal.',
   'content2':
       'DEBE CONSENTIR AFIRMATIVAMENTE EL USO DE NUESTRO SITIO, Y AL HACERLO, CONSIENTE ESTA POLÍTICA DE PRIVACIDAD. SI NO ESTÁ DE ACUERDO CON LOS TÉRMINOS DE ESTA POLÍTICA DE PRIVACIDAD EN SU TOTALIDAD, NO PUEDE USAR EL SITIO.',
   'contentOxPay':

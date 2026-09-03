@@ -75,7 +75,7 @@ const Map<String, String> ja = {
   'exit': '終了',
   'beyondDigitalPayment': 'デジタル決済を超えて',
   'version': 'バージョン 3.0',
-  'copyright': '著作権 © OxPay SG Pte Ltd – 2026',
+  'copyright': '著作権 © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'アカウントをお持ちではありませんか？ アカウント作成',
@@ -84,7 +84,7 @@ const Map<String, String> ja = {
   'device': 'デバイス',
   'userID': 'ユーザーID',
   'terminal': 'ターミナル',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'ユーザーガイド',
   'info': '情報',
   'error': 'エラー',
@@ -102,7 +102,7 @@ const Map<String, String> ja = {
   'success': '成功',
   'voided': '無効',
   'content1':
-      'oxpayfinancial.comウェブサイト（以下、「サイト」）をご訪問いただきありがとうございます。サイトはOxPay SG Pte Ltd（以下「OxPay」、「当社」または「私たち」）のインターネットプロパティです。このOxPayプライバシーポリシー（以下「プライバシーポリシー」）は、サイトにアクセスまたは使用する際、メンバーになるために登録する際、および/またはOxPayサイトを使用する際に、私たちが収集する個人情報（以下で定義されている）およびその他の情報をどのように使用し、共有し、保護するかを説明しています。',
+      'oxpayfinancial.comウェブサイト（以下、「サイト」）をご訪問いただきありがとうございます。サイトはOxygen7（以下「Oxygen7」、「当社」または「私たち」）のインターネットプロパティです。このOxygen7プライバシーポリシー（以下「プライバシーポリシー」）は、サイトにアクセスまたは使用する際、メンバーになるために登録する際、および/またはOxygen7サイトを使用する際に、私たちが収集する個人情報（以下で定義されている）およびその他の情報をどのように使用し、共有し、保護するかを説明しています。',
   'content2':
       '私たちのサイトを使用するためには、肯定的な同意が必要です。これを行うことで、このプライバシーポリシーに同意することになります。このプライバシーポリシーの全文に同意しない場合、このプライバシーポリシーの全文に同意しない場合、',
   'cardAccept': 'カード受け入れ',
@@ -286,7 +286,7 @@ const Map<String, String> ja = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'アプリを終了',
   'exitAppMessage': 'アプリを終了してもよろしいですか？',
   'initializingStatus': '初期化中...',

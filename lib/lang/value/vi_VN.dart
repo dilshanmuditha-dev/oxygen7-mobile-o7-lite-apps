@@ -76,7 +76,7 @@ const Map<String, String> vi = {
   'exit': 'Thoát',
   'beyondDigitalPayment': 'Vượt ra ngoài Thanh toán Số',
   'version': 'Phiên bản 3.0',
-  'copyright': 'Bản quyền © OxPay SG Pte Ltd – 2026',
+  'copyright': 'Bản quyền © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'Chưa có tài khoản? Tạo tài khoản',
@@ -85,7 +85,7 @@ const Map<String, String> vi = {
   'device': 'Thiết bị',
   'userID': 'ID Người dùng',
   'terminal': 'Terminal',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'Hướng dẫn Sử dụng',
   'info': 'Thông tin',
   'error': 'Lỗi',
@@ -104,7 +104,7 @@ const Map<String, String> vi = {
   'success': 'Thành Công',
   'voided': 'Hoàn tiền',
   'content1':
-      'Cảm ơn bạn đã ghé thăm trang web oxpayfinancial.com (the “Site”). Trang web là tài sản trực tuyến của OxPay SG Pte Ltd (“OxPay,” “chúng tôi” hoặc “us”). Chính Sách Bảo Mật OxPay này (“Chính Sách Bảo Mật”) mô tả cách chúng tôi sử dụng, chia sẻ và bảo vệ thông tin cá nhân (như định nghĩa sau đây) và các thông tin khác mà chúng tôi thu thập khi bạn: (a) truy cập hoặc sử dụng Trang web; (b) đăng ký để trở thành Thành viên; và/hoặc (c) sử dụng Trang web OxPay bao gồm, nhưng không giới hạn, Dịch vụ và/hoặc Khuyến mãi.',
+      'Cảm ơn bạn đã ghé thăm trang web oxpayfinancial.com (the “Site”). Trang web là tài sản trực tuyến của Oxygen7 (“Oxygen7,” “chúng tôi” hoặc “us”). Chính Sách Bảo Mật Oxygen7 này (“Chính Sách Bảo Mật”) mô tả cách chúng tôi sử dụng, chia sẻ và bảo vệ thông tin cá nhân (như định nghĩa sau đây) và các thông tin khác mà chúng tôi thu thập khi bạn: (a) truy cập hoặc sử dụng Trang web; (b) đăng ký để trở thành Thành viên; và/hoặc (c) sử dụng Trang web Oxygen7 bao gồm, nhưng không giới hạn, Dịch vụ và/hoặc Khuyến mãi.',
   'content2':
       'BẠN PHẢI ĐỒNG Ý RÕ RÀNG ĐỂ SỬ DỤNG TRANG WEB CỦA CHÚNG TÔI, VÀ BẰNG CÁCH LÀM ĐIỀU NÀY, BẠN ĐỒNG Ý VỚI CHÍNH SÁCH BẢO MẬT NÀY. NẾU BẠN KHÔNG ĐỒNG Ý VỚI CÁC ĐIỀU KIỆN CỦA CHÍNH SÁCH BẢO MẬT NÀY TRONG TOÀN BỘ, BẠN CÓ THỂ KHÔNG BẠN PHẢI ĐỒNG Ý RÕ RÀNG ĐỂ SỬ DỤNG TRANG WEB CỦA CHÚNG TÔI, VÀ BẰNG CÁCH LÀM ĐIỀU NÀY, BẠN ĐỒNG Ý VỚI CHÍNH SÁCH BẢO MẬT NÀY. NẾU BẠN KHÔNG ĐỒNG Ý VỚI CÁC ĐIỀU KIỆN CỦA CHÍNH SÁCH BẢO MẬT NÀY TRONG TOÀN BỘ, BẠN CÓ THỂ KHÔNG',
   'cardAccept': 'Chấp Nhận Thẻ',
@@ -294,7 +294,7 @@ const Map<String, String> vi = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'Thoát Ứng dụng',
   'exitAppMessage': 'Bạn có chắc chắn muốn thoát ứng dụng không?',
   'initializingStatus': 'Đang khởi tạo...',

@@ -78,7 +78,7 @@ const Map<String, String> fr = {
   'exit': 'Quitter',
   'beyondDigitalPayment': 'Au-delà du Paiement Numérique',
   'version': 'Version 3.0',
-  'copyright': 'Droits d\'auteur © OxPay SG Pte Ltd – 2026',
+  'copyright': 'Droits d\'auteur © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'Vous n\'avez pas de compte? Créer un compte',
@@ -87,7 +87,7 @@ const Map<String, String> fr = {
   'device': 'Appareil',
   'userID': 'ID Utilisateur',
   'terminal': 'Terminal',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'Guide Utilisateur',
   'info': 'Information',
   'error': 'Erreur',
@@ -267,7 +267,7 @@ const Map<String, String> fr = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'Quitter l\'app',
   'exitAppMessage': 'Êtes-vous sûr de vouloir quitter l\'app?',
   'initializingStatus': 'Initialisation...',
@@ -432,7 +432,7 @@ const Map<String, String> fr = {
       'Veuillez vérifier le statut de la transaction dans l\'onglet Historique des Txn ou contacter notre équipe de support à support@oxpayfinancial.com',
   'communityChestDonation': 'Don Community Chest',
   'content1':
-      'Merci de visiter le site web oxpayfinancial.com (le "Site"). Le Site est une propriété Internet de OxPay SG Pte Ltd ("OxPay" ou "nous"). Cette Politique de Confidentialité définit comment nous utilisons, partageons et protégeons les Informations Personnelles.',
+      'Merci de visiter le site web oxpayfinancial.com (le "Site"). Le Site est une propriété Internet de Oxygen7 ("Oxygen7" ou "nous"). Cette Politique de Confidentialité définit comment nous utilisons, partageons et protégeons les Informations Personnelles.',
   'content2':
       'VOUS DEVEZ CONSENTIR AFFIRMATIVEMENT À L\'UTILISATION DE NOTRE SITE, ET CE FAISANT, VOUS CONSENTEZ À CETTE POLITIQUE DE CONFIDENTIALITÉ. SI VOUS N\'ÊTES PAS D\'ACCORD AVEC LES TERMES DE CETTE POLITIQUE DE CONFIDENTIALITÉ DANS LEUR INTÉGRALITÉ, VOUS NE POUVEZ PAS UTILISER LE SITE.',
   'contentOxPay':

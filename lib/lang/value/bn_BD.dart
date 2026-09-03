@@ -77,7 +77,7 @@ const Map<String, String> bn = {
   'exit': 'বের হন',
   'beyondDigitalPayment': 'ডিজিটাল পেমেন্টের বাইরে',
   'version': 'ভার্সন 3.0',
-  'copyright': 'কপিরাইট © OxPay SG Pte Ltd – 2026',
+  'copyright': 'কপিরাইট © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': 'কোনো অ্যাকাউন্ট নেই? অ্যাকাউন্ট তৈরি করুন',
@@ -86,7 +86,7 @@ const Map<String, String> bn = {
   'device': 'ডিভাইস',
   'userID': 'ব্যবহারকারী আইডি',
   'terminal': 'টার্মিনাল',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': 'ব্যবহারকারী গাইড',
   'info': 'তথ্য',
   'error': 'ত্রুটি',
@@ -254,7 +254,7 @@ const Map<String, String> bn = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': 'অ্যাপ থেকে বের হন',
   'exitAppMessage': 'আপনি কি সত্যিই অ্যাপ থেকে বের হতে চান?',
   'initializingStatus': 'ইনিশিয়ালাইজ হচ্ছে...',
@@ -411,7 +411,7 @@ const Map<String, String> bn = {
       'অনুগ্রহ করে Txn History ট্যাবে লেনদেনের স্থিতি পরীক্ষা করুন অথবা support@oxpayfinancial.com এ আমাদের সাপোর্ট টিমের সাথে যোগাযোগ করুন',
   'communityChestDonation': 'কমিউনিটি চেস্ট দান',
   'content1':
-      'oxpayfinancial.com ওয়েবসাইট ("সাইট") পরিদর্শনের জন্য ধন্যবাদ। সাইটটি OxPay SG Pte Ltd ("OxPay" বা "আমরা") এর একটি ইন্টারনেট সম্পত্তি। এই গোপনীয়তা নীতি নির্ধারণ করে কিভাবে আমরা ব্যক্তিগত তথ্য ব্যবহার, শেয়ার এবং সুরক্ষিত করি।',
+      'oxpayfinancial.com ওয়েবসাইট ("সাইট") পরিদর্শনের জন্য ধন্যবাদ। সাইটটি Oxygen7 ("Oxygen7" বা "আমরা") এর একটি ইন্টারনেট সম্পত্তি। এই গোপনীয়তা নীতি নির্ধারণ করে কিভাবে আমরা ব্যক্তিগত তথ্য ব্যবহার, শেয়ার এবং সুরক্ষিত করি।',
   'content2':
       'আমাদের সাইট ব্যবহার করতে আপনাকে অবশ্যই সম্মতি দিতে হবে, এবং এটি করার মাধ্যমে আপনি এই গোপনীয়তা নীতিতে সম্মত হন। আপনি যদি এই গোপনীয়তা নীতির শর্তাবলীতে সম্পূর্ণরূপে সম্মত না হন, তাহলে আপনি সাইটটি ব্যবহার করতে পারবেন না।',
   'contentOxPay': 'আগে লগইন করতে ব্যবহৃত Oxygen7 TID প্রবেশ করান।',

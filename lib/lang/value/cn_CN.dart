@@ -73,7 +73,7 @@ const Map<String, String> cn = {
   'exit': '退出',
   'beyondDigitalPayment': '超越数字支付',
   'version': '版本 3.0',
-  'copyright': '版权 © OxPay SG Pte Ltd – 2026',
+  'copyright': '版权 © Oxygen7 – 2026',
 
   // Login Screen
   'createAccount': '没有账户？创建账户',
@@ -82,7 +82,7 @@ const Map<String, String> cn = {
   'device': '设备',
   'userID': '用户ID',
   'terminal': '终端',
-  'copyrightText': '© OxPay SG Pte Ltd',
+  'copyrightText': '© Oxygen7',
   'userGuide': '用户指南',
   'info': '信息',
   'error': '错误',
@@ -100,7 +100,7 @@ const Map<String, String> cn = {
   'success': '成功',
   'voided': '已作废',
   'content1':
-      '感谢您访问oxpayfinancial.com网站（以下简称“网站”）。该网站是OxPay SG Pte Ltd（以下简称“OxPay”，“我们”或“我们”）的互联网财产。这份OxPay隐私政策（以下简称“隐私政策”）详细说明了我们在以下情况下如何使用、共享和保护个人信息（如下定义）以及您：（a）访问或使用网站；（b）注册成为会员；和/或（c）使用OxPay网站，包括但不限于服务和/或促销时我们收集的其他信息。',
+      '感谢您访问oxpayfinancial.com网站（以下简称“网站”）。该网站是Oxygen7（以下简称“Oxygen7”，“我们”或“我们”）的互联网财产。这份Oxygen7隐私政策（以下简称“隐私政策”）详细说明了我们在以下情况下如何使用、共享和保护个人信息（如下定义）以及您：（a）访问或使用网站；（b）注册成为会员；和/或（c）使用Oxygen7网站，包括但不限于服务和/或促销时我们收集的其他信息。',
   'content2': '您必须明确同意使用我们的网站，并且这样做即表示您同意本隐私政策。 如果您不同意本隐私政策的全部条款，您不得',
   'cardAccept': '卡支付',
   'paymentQr': '付款二维码',
@@ -294,7 +294,7 @@ const Map<String, String> cn = {
   'paymentMethodTouchNGo': "Touch 'n Go",
   'paymentMethodShopeePay': 'ShopeePay',
   'paymentMethodIouPay': 'IOUPay',
-  'paymentMethodRipple': 'Ripple',
+  'paymentMethodRipple': 'Ripple Payment',
   'exitAppTitle': '退出应用',
   'exitAppMessage': '您确定要退出应用吗？',
   'initializingStatus': '正在初始化...',

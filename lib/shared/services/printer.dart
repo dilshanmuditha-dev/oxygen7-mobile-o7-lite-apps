@@ -5,6 +5,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart' show compute;
 import 'package:app/models/response/transaction_summary_AFG_response/transaction_summary_AFG_response.dart';
 import 'package:app/shared/constants/constants_o7lite.dart';
+import 'package:app/shared/constants/image_constant.dart';
 import 'package:app/shared/services/castle_report_print_monitor.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:esc_pos_utils/esc_pos_utils.dart';
@@ -68,8 +69,8 @@ class Printer {
     await SunmiPrinter.initPrinter();
     await SunmiPrinter.startTransactionPrint(true);
     await SunmiPrinter.setAlignment(SunmiPrintAlign.CENTER);
-    Uint8List byte1 =
-        await _getImageFromAsset('assets/images/oxpay - receipt.png');
+    Uint8List byte1 = await _getImageFromAsset(
+        ImageConstant.oxygen7IconTransparentBackground);
     await SunmiPrinter.printImage(byte1);
     await SunmiPrinter.lineWrap(1);
     await SunmiPrinter.setAlignment(SunmiPrintAlign.CENTER);
