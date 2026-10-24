@@ -208,7 +208,7 @@ class _RootedWarningScreen extends StatelessWidget {
                       color: Colors.grey.shade100,
                     ),
                     child: Image.asset(
-                      ImageConstant.oxygen7IconTransparentBackgroundSmall,
+                      ImageConstant.oxygen7Mark,
                       width: 72,
                       height: 72,
                       errorBuilder: (_, __, ___) => const Icon(

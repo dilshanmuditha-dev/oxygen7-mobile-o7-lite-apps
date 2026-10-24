@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ColorConstants {
+  // Oxygen7 brand palette
+  static const Color brandPurple = Color(0xFF4A2F81);
+  static const Color brandTeal = Color(0xFF12BCC5);
+
   static Color lightScaffoldBackgroundColor = hexToColor('#F9F9F9');
   static Color darkScaffoldBackgroundColor = hexToColor('#2F2E2E');
   static Color hyperlinkColor = hexToColor('#0000EE');

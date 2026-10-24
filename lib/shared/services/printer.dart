@@ -70,7 +70,7 @@ class Printer {
     await SunmiPrinter.startTransactionPrint(true);
     await SunmiPrinter.setAlignment(SunmiPrintAlign.CENTER);
     Uint8List byte1 = await _getImageFromAsset(
-        ImageConstant.oxygen7IconTransparentBackground);
+        ImageConstant.oxygen7LogoReceipt);
     await SunmiPrinter.printImage(byte1);
     await SunmiPrinter.lineWrap(1);
     await SunmiPrinter.setAlignment(SunmiPrintAlign.CENTER);

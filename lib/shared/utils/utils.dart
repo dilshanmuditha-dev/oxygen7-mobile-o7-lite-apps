@@ -239,7 +239,7 @@ String _normalizeBrandName(String brandName) {
 /// Uses fuzzy matching with keyword patterns to handle variations in brand names
 String getBrandImage(String brandName, {bool isSGPLocation = true}) {
   if (brandName.isEmpty) {
-    return ImageConstant.oxygen7IconTransparentBackground;
+    return ImageConstant.oxygen7Mark;
   }
 
   final normalizedBrand = _normalizeBrandName(brandName);
@@ -252,7 +252,7 @@ String getBrandImage(String brandName, {bool isSGPLocation = true}) {
   }
 
   // Fallback to default icon
-  return ImageConstant.oxygen7IconTransparentBackground;
+  return ImageConstant.oxygen7Mark;
 }
 
 /// Returns a widget displaying the brand image

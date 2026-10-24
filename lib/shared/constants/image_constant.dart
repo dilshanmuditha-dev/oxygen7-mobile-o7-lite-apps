@@ -8,6 +8,17 @@ class ImageConstant {
   static const oxygen7IconTransparentBackgroundSvg =
       'assets/o7lite/images/oxygen7_logo.svg';
 
+  /// Stacked lockup (mark above wordmark) for square slots
+  static const oxygen7LogoStacked =
+      'assets/o7lite/images/oxygen7_logo_stacked.png';
+
+  /// Circle-7 mark without the wordmark
+  static const oxygen7Mark = 'assets/o7lite/images/oxygen7_mark.png';
+
+  /// Black-on-white logo for thermal receipt printing
+  static const oxygen7LogoReceipt =
+      'assets/o7lite/images/oxygen7_logo_receipt.png';
+
   /// Demo wallet - the only payment method exposed in the app
   static const imageRipple = 'assets/o7lite/images/ripple.png';
 

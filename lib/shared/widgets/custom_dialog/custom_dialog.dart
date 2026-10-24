@@ -195,7 +195,7 @@ class CustomDialog {
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Image.asset(
-                ImageConstant.oxygen7IconTransparentBackgroundSmall,
+                ImageConstant.oxygen7LogoStacked,
                 width: ResponsiveUtil().getSize(200),
                 height: ResponsiveUtil().getSize(200),
               ),
@@ -299,8 +299,7 @@ class CustomDialog {
                       child: Center(
                         child: !hasQrData
                             ? Image.asset(
-                                ImageConstant
-                                    .oxygen7IconTransparentBackgroundSmall,
+                                ImageConstant.oxygen7Mark,
                                 width: qrInnerSize,
                                 height: qrInnerSize,
                               )
